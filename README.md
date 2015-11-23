@@ -1,6 +1,6 @@
-# Introduction
-
+# 
 ![](images/webdevelopment.jpg)
+# 
 
 This is where you can find all the labs for **Dynamic Web Development**.
 
