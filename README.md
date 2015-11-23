@@ -1,8 +1,8 @@
 # Introduction
 
-![](images/webappdev.jpg)
+![](images/webdevelopment.jpg)
 
-This is where you can find all the labs for **Web Application Development**.
+This is where you can find all the labs for **Dynamic Web Development**.
 
 We will be covering the MEAN Software Stack which essentially covers Mongo, Express, Angular and Node when developing web applications.
 
