@@ -1,4 +1,4 @@
-# Lab 1 - Donation 1.0 (Angular App)
+# Lab 1 - Donation 1.0 (Basic Node Web Service)
 
 This lab involves building your 1st Angular Web App - **Donation 1.0**.
 
