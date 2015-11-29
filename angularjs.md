@@ -1,9 +1,7 @@
 
-# AngularJS Setup
-
 ![](images/AngularJS-large.png)
 
-
+---
 
 Visit the official Angular JS resources and set up your development environment as instructed.
 
