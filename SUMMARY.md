@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [MEAN Setup](mean_setup.md)
-   * WebStorm IDE
+   * [WebStorm IDE](webstorm_ide.md)
    * [AngularJS](angularjs.md)
    * [NodeJS](nodejsmd.md)
    * [Express](express.md)
