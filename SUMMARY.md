@@ -2,11 +2,11 @@
 
 * [Introduction](README.md)
 * [MEAN Setup](mean_setup.md)
+   * WebStorm IDE
    * [AngularJS](angularjs.md)
    * [NodeJS](nodejsmd.md)
    * [Express](express.md)
    * [MongoDB](mongodb.md)
-   * WebStorm IDE
 * [Practical Labs](practical_labs.md)
    * [Lab 1 - Donation 1.0 (Angular App)](lab1/lab_1.md)
        * [Step 1 - Objectives](lab1/step_1.md)
