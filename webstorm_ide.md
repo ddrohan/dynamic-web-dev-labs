@@ -1,9 +1,7 @@
-# WebStorm IDE
 
-![](images/AngularJS-large.png)
+![](images/webstorm.gif)
 
-
-
+---
 
 The first thing to do is go to the official JetBrains resources and get yourself an educational licensed version of their WebStorm IDE
 
