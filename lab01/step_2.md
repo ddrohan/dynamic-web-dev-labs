@@ -6,7 +6,7 @@ We're going to build our first Node/Express web app using **WebStorm**, so (assu
 
 ![](../lab01/images01/lab01s02.png)
 
-and you should get something like this
+So select 'Create New Project' and you should get something like this
 
 ![](../lab01/images01/lab01s03.png)
 
