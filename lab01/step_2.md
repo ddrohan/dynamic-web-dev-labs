@@ -16,29 +16,16 @@ and make sue you choose **EJS** as the templating option (more on this later)
 
 ![](../lab01/images01/lab01s05.png)
 
+As you can see below, this will auto-generate a node web app, creating all the necessary folders and files we need to get started. *EJS* specifies we want to use the **Embedded JavaScript Templates** (instead of the default which is Jade).
+
 ![](../lab01/images01/lab01s06.png)
 
-![](../images/lab3.step2.1.png)
+Now, click on the 'play' button to run/launch your Web App..
 
-As you can see, this will auto-generate a node web app, creating all the necessary folders and files we need to get started. *--ejs* specifies we want to use the **Embedded JavaScript Templates** (instead of the default which is Jade) and *--save* just ensures the dependencies are added to our *package.json* file (more on this later).
+![](../lab01/images01/lab01s07.png)
 
-Now, follow the instructions to install the dependencies, and you should get something like this (+ a lot more!)
+If everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) in your browser, and see the following
 
-![](../images/lab3.step2.2.png)
-
-And once you've dragged it into Sublime Text you should have something like this
-
-![](../images/donationweb-3.0.start.png)
-
-Finally, navigate to your **donationweb-3.0** folder and type the following to launch the server
-
-```
-npm start
-
-```
-
-if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and see the following
-
-![](../images/lab3.step2.3.png)
+![](../lab01/images01/lab01s08.png)
 
 The next step will involve bringing in our angular files to get the front-end implemented.
