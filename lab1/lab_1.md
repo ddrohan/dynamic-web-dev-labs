@@ -1,4 +1,4 @@
-# Lab 3 - Donation 3.0 (Basic Angular App)
+# Lab 4 - DonationWeb 3.0 (Basic Angular App)
 
 This lab involves building your 1st Angular Web App - **Donation 3.0**.
 
