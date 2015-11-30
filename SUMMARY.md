@@ -10,7 +10,7 @@
 * [Practical Labs](practical_labs.md)
    * [Lab 1 - DonationWebStorm (Express & Node Web App using WebStorm)](lab01/lab_1.md)
        * [Step 1 - Objectives](lab01/step_1.md)
-       * [Step 2 - Setup](lab01/step_2.md)
+       * [Step 2 - Project Setup](lab01/step_2.md)
        * [Step 3 - Customising our Home Page](lab01/step_3.md)
    * [Lab 2 - DonationWeb 1.0 (Express & Node)](lab02/lab_2.md)
        * [Step 1 - Objectives](lab02/step_1.md)
