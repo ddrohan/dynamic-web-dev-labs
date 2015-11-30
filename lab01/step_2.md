@@ -1,4 +1,4 @@
-# Step 2 - Setup
+# Step 2 - Project Setup
 
 ![](../lab01/images01/lab01s01.png)
 
