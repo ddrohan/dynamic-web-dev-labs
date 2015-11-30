@@ -32,7 +32,7 @@
        * [Step 5 - Modifying our 'Routes', Part 2 ( 'deleteDonation' & 'incrementVotes' )](lab5/step_5.md)
        * [Step 6 - Updating our 'Views'](lab5/step_6.md)
        * [Solution](lab5/solution.md)
-   * [Lab 1 - Donation 1.0 (Angular App)](lab1/lab_1.md)
+   * [Lab 3 - DonationWeb 3.0 (Angular App)](lab1/lab_1.md)
        * [Step 1 - Objectives](lab1/step_1.md)
        * [Step 2 - Setup](lab1/step_2.md)
        * [Step 3 - Implement 'About Us' Page](lab1/step_3.md)
