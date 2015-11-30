@@ -1,4 +1,4 @@
-#Lab 4 - Donation 4.0 (EAN Part 2)
+#Lab 2 - DonationWeb 2.0 (Express & Node App Part 2)
 
 Even though 'technically' we built a client-server web app in the previous lab, the majority of the functionality remained on the client-side (we still did everything through Angular).
 
