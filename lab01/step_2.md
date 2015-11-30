@@ -30,7 +30,16 @@ If everything goes to plan you should be able to visit [http://localhost:3000](h
 
 ![](../lab01/images01/lab01s12.png)
 
+Now, if you'd rather your browser launch automatically you can configure you 'Run' options
 
 ![](../lab01/images01/lab01s09.png)
+
+and choose the Browser you prefer
+
+![](../lab01/images01/lab01s10.png)
+
+Just be sure to 'tick' the 'After Launch' check box
+
+![](../lab01/images01/lab01s11.png)
 
 The next step will involve bringing in our angular files to get the front-end implemented.
