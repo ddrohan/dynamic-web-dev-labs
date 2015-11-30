@@ -38,7 +38,7 @@
        * [Step 3 - Implement 'About Us' Page](lab1/step_3.md)
        * [Step 4 - Implement 'Contact Us' Page](lab1/step_4.md)
        * [Solution](lab1/solution.md)
-   * [Lab 2 - Donation 2.0 (Angular App)](lab2/lab_2.md)
+   * [Lab 5 - DonationWeb 5.0 (MEAN App)](lab2/lab_2.md)
        * [Step 1 - Objectives](lab2/step_1.md)
        * [Step 2 - Setup](lab2/step_2.md)
        * [Step 3 - 'View All Donations'](lab2/step_3.md)
