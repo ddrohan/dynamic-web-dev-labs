@@ -1,4 +1,4 @@
-# Lab 2 - Donation 2.0 (Angular App)
+# Lab 5 - DonationWeb 5.0 (MEAN Web App)
 
 This lab involves adding some proper functionality to our Angular Web App - **Donation 2.0**.
 
