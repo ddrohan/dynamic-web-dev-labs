@@ -24,8 +24,10 @@ Now, click on the 'play' button to run/launch your Web App..
 
 ![](../lab01/images01/lab01s07.png)
 
+![](../lab01/images01/lab01s08.png)
+
 If everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) in your browser, and see the following
 
-![](../lab01/images01/lab01s08.png)
+![](../lab01/images01/lab01s09.png)
 
 The next step will involve bringing in our angular files to get the front-end implemented.
