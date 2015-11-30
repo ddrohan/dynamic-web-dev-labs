@@ -7,7 +7,7 @@ This web app won't have much functionality but it will take you through the proc
 Once completed and running, your Node Server Landing Page (at [http://localhost:3000](http://localhost:3000)) should look something like this;
 
 
-
+![](../images/donationwebstorm.png)
 
 
 
