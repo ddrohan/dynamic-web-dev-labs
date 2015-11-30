@@ -38,7 +38,7 @@ If everything goes to plan you should be able to visit [http://localhost:3000](h
 
 ![](../lab01/images01/lab01s12.png)
 
-Now, if you'd rather your browser launch automatically you can configure you 'Run' options
+Now, if you'd rather your browser launch automatically you can configure you 'Run' options like so
 
 ![](../lab01/images01/lab01s09.png)
 
