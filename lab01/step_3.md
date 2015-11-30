@@ -9,7 +9,7 @@ Now, navigate to you 'routes' folder
 
 ![](../lab01/images01/lab01s13.png)
 
-Open up the **index.js** file, and replace the default title value with this one
+Open up the **index.js** file, and replace the default ***title*** value with this one
 
 ~~~javascript
 'DonationWebStorm Web App'
