@@ -16,6 +16,8 @@ and make sue you choose **EJS** as the templating option (more on this later)
 
 ![](../lab01/images01/lab01s05.png)
 
+![](../lab01/images01/lab01s06.png)
+
 ![](../images/lab3.step2.1.png)
 
 As you can see, this will auto-generate a node web app, creating all the necessary folders and files we need to get started. *--ejs* specifies we want to use the **Embedded JavaScript Templates** (instead of the default which is Jade) and *--save* just ensures the dependencies are added to our *package.json* file (more on this later).
