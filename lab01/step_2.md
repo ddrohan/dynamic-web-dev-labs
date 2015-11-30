@@ -42,4 +42,4 @@ Just be sure to 'tick' the 'After Launch' check box
 
 ![](../lab01/images01/lab01s11.png)
 
-The next step will involve bringing in our angular files to get the front-end implemented.
+The next step will involve customising our home page (although customising is a bit of a stretch!)
