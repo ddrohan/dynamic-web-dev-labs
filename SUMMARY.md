@@ -8,7 +8,7 @@
    * [Express](express.md)
    * [MongoDB](mongodb.md)
 * [Practical Labs](practical_labs.md)
-   * [Lab 3 - Donation 3.0 (Express, Node & Angular App Part 1)](lab3/lab_3.md)
+   * [Lab 1 - DonationWeb 1.0 (Express & Node Part 1)](lab3/lab_3.md)
        * [Step 1 - Objectives](lab3/step_1.md)
        * [Step 2 - Setup](lab3/step_2.md)
        * [Step 3 - Importing our Angular Project](lab3/step_3.md)
