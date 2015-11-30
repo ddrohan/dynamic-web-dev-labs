@@ -21,7 +21,7 @@ Launch your app again and your project should now look something like this
 
 ![](../lab01/images01/lab01s15.png)
 
-**Well Done!! - You've just created, customised and deployed your first Node Web App**
+**Well Done!! - You've just created, customised and deployed your first Node Web App**.
 
 
 
