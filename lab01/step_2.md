@@ -1,16 +1,20 @@
 # Step 2 - Setup
 
-First thing you should do is download the starter code (or the solution to the previous lab) **[here](../zips/donationweb-2.0.solution.zip)** and then extract it to your single parent folder for all your web app projects you created for previous labs. 
+![](../lab01/images01/lab01s01.png)
 
-This time, **DON'T** rename the extracted folder, as we only need to copy the Angular files into a new NodeJS app.
+We're going to build our first Node/Express web app using **WebStorm**, so (assuming you already have it installed) launch your WebStorm IDE and create a new Node/Express Project as follows;
 
-We're going to build our node web app using **express**, so (assuming you already have it installed) navigate to your parent web app folder and type the following
+![](../lab01/images01/lab01s02.png)
 
-```
-express --ejs donationweb-3.0 --save
-
-```
 and you should get something like this
+
+![](../lab01/images01/lab01s03.png)
+
+![](../lab01/images01/lab01s04.png)
+
+and make sue you choose **EJS** as the templating option (more on this later)
+
+![](../lab01/images01/lab01s05.png)
 
 ![](../images/lab3.step2.1.png)
 
