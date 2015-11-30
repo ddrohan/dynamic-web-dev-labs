@@ -50,4 +50,6 @@ Just be sure to 'tick' the 'After Launch' check box
 
 ![](../lab01/images01/lab01s11.png)
 
+Close the browser tab/window and run your app again, to confirm your new run configuration is correct.
+
 The next step will involve customising our home page (although customising is a bit of a stretch!)
