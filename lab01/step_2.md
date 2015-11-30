@@ -8,6 +8,14 @@ We're going to build our first Node/Express web app using **WebStorm**, so (assu
 
 So select 'Create New Project' and you should get something like this
 
+![](../lab01/images01/lab01s02a.png)
+
+Select a 'Node.js Express App'
+
+![](../lab01/images01/lab01s02b.png)
+
+and browse to the location you want to store your project files. It's probably a good idea to store all your web apps in a single folder (ssd4 for me here) and create a new folder for our specific web app **donationwebstorm** (as below).
+
 ![](../lab01/images01/lab01s03.png)
 
 ![](../lab01/images01/lab01s04.png)
