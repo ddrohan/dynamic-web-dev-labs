@@ -24,7 +24,7 @@
        * [Step 6 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')](lab4/step_6.md)
        * [Step 7 - Updating our 'Views', Part 2](lab4/step_7.md)
        * [Solution](lab4/solution.md)
-   * [Lab 3 - Donation 5.0 (Mongo, Express & Node)](lab5/lab_5.md)
+   * [Lab 3 - DonationWeb 5.0 (Mongo, Express & Node)](lab5/lab_5.md)
        * [Step 1 - Objectives](lab5/step_1.md)
        * [Step 2 - Setup](lab5/step_2.md)
        * [Step 3 - Creating our Database Schema](lab5/step_3.md)
