@@ -15,7 +15,7 @@
        * [Step 4 - Refactoring our Controllers](lab3/step_4.md)
        * [Step 5 - Updating our Views](lab3/step_5.md)
        * [Solution](lab3/solution.md)
-   * [Lab 4 - Donation 4.0 (EAN Part 2)](lab4/lab_4.md)
+   * [Lab 2 - DonationWeb 2.0 (Express & Node Part 2)](lab4/lab_4.md)
        * [Step 1 - Objectives](lab4/step_1.md)
        * [Step 2 - Setup](lab4/step_2.md)
        * [Step 3 - Creating our 'Model'](lab4/step_3.md)
