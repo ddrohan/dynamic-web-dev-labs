@@ -12,7 +12,6 @@
        * [Step 1 - Objectives](lab01/step_1.md)
        * [Step 2 - Setup](lab01/step_2.md)
        * [Step 3 - Importing our Angular Project](lab01/step_3.md)
-       * [Step 5 - Updating our Views](lab01/step_5.md)
        * [Solution](lab01/solution.md)
    * [Lab 2 - DonationWeb 1.0 (Express & Node)](lab02/lab_2.md)
        * [Step 1 - Objectives](lab02/step_1.md)
