@@ -7,15 +7,15 @@ With our "backend" model in place, it's now time to open some routes that the fr
 * Add a new donation
 * Upvote a donation
 * Delete a donation
-* go home :-)
+* Find a single donation
 
 The actions map directly to several routes, which are described as follows:
 
 * GET **/donations** - return a list of donations and associated metadata
 * POST **/donations** - create a new donation
-* GET **/donations/:id** - return an individual donation with associated metadata
 * PUT **/donations/:id/upvote** - upvote a donation, notice we use the donation ID in the URL
 * DELETE **/donations/:id** - delete a donation by ID
+* GET **/donations/:id** - return an individual donation with associated metadata
 
 ---
 ## Creating Our First Route - 'List All Donations'
