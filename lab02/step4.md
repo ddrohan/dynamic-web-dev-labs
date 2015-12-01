@@ -1,5 +1,5 @@
 
-# Step 4 - Adding our 'Routes', Part 1 ( 'home' & 'findAll' )
+# Step 4 - Adding our 'Routes', Part 1 ( 'findAll' & 'findOne')
 
 With our "backend" model in place, it's now time to open some routes that a client can interact with. The following are a list of actions a user can perform:
 
