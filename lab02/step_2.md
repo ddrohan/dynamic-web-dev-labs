@@ -14,9 +14,9 @@ Select a 'Node.js Express App'
 
 and browse to the location you want to store your project files. It's probably a good idea to store all your web apps in a single folder (ssd4 for me here) and create a new folder for our specific web app **donationweb-1.0** (as below).
 
-![](../lab01/images01/lab02s01.png)
+![](../lab02/images/lab02s01.png)
 
-![](../lab01/images01/lab01s04.png)
+![](../lab02/images/lab01s02.png)
 
 and make sue you choose **EJS** as the templating option (more on this later)
 
