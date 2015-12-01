@@ -36,7 +36,7 @@ Languages & Frameworks->Node.js & NPM
 
 ## Creating Our First Route - 'List All Donations'
 
-To keep things organised we will be defining these routes in a **routes/donations.js** file. 
+To keep things organised we will be defining these routes in a **routes/donations.js** file, so create a new file 'donations.js' in the existing 'routes' folder in your project.
 
 Let's begin by opening up the first route we listed, which should return a **JSON** list containing all donations. We start by creating a function (***findAll***) for retrieving donations in our **routes/donations.js** file.
 
@@ -54,17 +54,12 @@ module.exports = router;
 ```
 We make sure we import **express** and have a handle to our donations model. By right, we should have some error handling in there, but we'll be optimistic!
 
-Next, inside our **app.js** we need to define the actual route which will trigger the above function so first, add the following around line 9 or 10
-
-```javascript
-var donations = require('./routes/donations');
-```
-to import our own custom module and the add this around line 26/27
+Next, inside our **app.js** we need to define the actual route which will trigger the above function so add this around line 26/27 (there'll be another, similar, route around that line so just add it after it)
 
 ```javascript
 app.get('/donations', donations.findAll);
 ```
-to add the actual ***GET*** express route.
+to add the actual ***GET*** APi route.
 
 As we already have data in our Model, we can test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
 
