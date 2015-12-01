@@ -61,6 +61,12 @@ app.get('/donations', donations.findAll);
 ```
 to add the actual ***GET*** APi route.
 
+Now, try and run your app and see what happens....
+
+You probably got something like this
+
+![](../lab02/images/lab02s12.png)
+
 As we already have data in our Model, we can test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
 
 
