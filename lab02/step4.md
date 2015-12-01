@@ -23,6 +23,10 @@ Before we proceed, WebStorm has a very nice (and useful!) feature to assist the 
 
 ![](../lab02/images/lab02s10.png)
 
+![](../lab02/images/lab02s11.png)
+
+![](../lab02/images/lab02s12.png)
+
 
 ## Creating Our First Route - 'List All Donations'
 
