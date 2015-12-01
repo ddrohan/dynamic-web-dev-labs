@@ -62,9 +62,14 @@ router.deleteDonation = function(req, res) {
     //Delete the selected donation based on its id
     var donation = getByValue(donations,req.params.id);
     var index = donations.indexOf(donation);
-    donations.splice(index, 1);  
 
-    router.findAll(req,res); //CAN YOU EXPLAIN WHY THIS IS NEEDED?
+    var currentSize = donations.length;
+    donations.splice(index, 1);
+
+    if((currentSize - 1) == donations.length)
+        res.json({ message: 'Donation Deleted!'});
+    else
+        res.json({ message: 'Donation NOT Deleted!'});
 }
 ```
 and update our **app.js** accordingly
