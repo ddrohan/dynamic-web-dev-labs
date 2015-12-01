@@ -14,7 +14,7 @@
        * [Step 3 - Customising our Home Page](lab01/step_3.md)
    * [Lab 2 - DonationWeb 1.0 (Express & Node)](lab02/lab_2.md)
        * [Step 1 - Objectives](lab02/step_1.md)
-       * [Step 2 - Setup](lab02/step_2.md)
+       * [Step 2 - Project Setup](lab02/step_2.md)
        * [Step 3 - Creating our 'Model'](lab02/step_3.md)
        * [Step 4 - Adding our 'Routes', Part 1 ('home' & 'findAll')](lab02/step4.md)
        * [Step 5 - Updating our 'Views' Part 1](lab02/step_5.md)
