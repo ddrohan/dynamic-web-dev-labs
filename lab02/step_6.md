@@ -1,6 +1,17 @@
 
 # Step 5 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')
 
+Before we go any further, here's the missing code from the previous step
+
+```javascript
+function getByValue(arr, id) {
+
+    var result  = arr.filter(function(o){return o.id == id;} );
+
+    return result ? result[0] : null; // or undefined
+}
+```
+
 Recall our routes, described as follows:
 
 * GET **/donations** - return a list of donations and associated metadata
