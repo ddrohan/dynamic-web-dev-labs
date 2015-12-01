@@ -1,6 +1,6 @@
 # Step 3 - Creating our 'Model'
 
-Before we can think about accessing data on our Server via a RESTful APi, we first need the actual data :) , so this step will involve creating a list of 'Donations' that we can 'expos' via our APi.
+Before we can think about accessing data on our Server via a RESTful APi, we first need the actual data :) , so this step will involve creating a list of 'Donations' that we can 'expose' via our APi.
 
 The first thing we need to do is create a new directory in our root directory called ***models/*** and within that directory create a new file called **donations.js**.
 
