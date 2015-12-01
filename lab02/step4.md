@@ -79,6 +79,12 @@ Choose the first 'fix' and the necessary 'requires' statement is added to our js
 
 ![](../lab02/images/lab02s16.png)
 
+Now, to actually test our APi we need to launch our Server again and point the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so.
+
+![](../lab02/images/lab02s22.png)
+
+Over time, this would probably become a bit time consuming, but WebStorm to the rescue again :) there's a feature to **Test RESTful Web Service**, so launch that like so
+
 ![](../lab02/images/lab02s17.png)
 
 ![](../lab02/images/lab02s18.png)
@@ -91,9 +97,6 @@ ddd
 
 ![](../lab02/images/lab02s21.png)
 
-we can also test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
-
-![](../images/lab4.step4.1.png)
 
 but our REST Client will suffice for the moment.
 
