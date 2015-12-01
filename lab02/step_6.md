@@ -78,16 +78,7 @@ and update our **app.js** accordingly
 app.delete('/donations/:id', donations.deleteDonation);
 ```
 
-We also need to write our own 'lookup' function to find a particular donation so make sure you add the following to your **routes/donations.js** file but be sure you understand how it works....
-
-```javascript
-function getByValue(arr, id) {
-
-  var result  = arr.filter(function(o){return o.id == id;} );
-
-  return result ? result[0] : null; // or undefined
-}
-```
+Notice we are using our own 'lookup' function to find a particular donation but be sure you understand how it works....
 
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
