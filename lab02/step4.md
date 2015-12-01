@@ -20,13 +20,19 @@ The actions map directly to several routes, which are described as follows:
 ---
 Before we proceed, WebStorm has a very nice (and useful!) feature to assist the developer in writing javascript - **Code Assistance**, which happens to disabled by default, so we need to turn it on, as follows;
 
+File->Default Settings
 
 ![](../lab02/images/lab02s10.png)
 
+Languages & Frameworks->Node.js & NPM
+
 ![](../lab02/images/lab02s11.png)
+
+**Enable ** Node.js Core Library
 
 ![](../lab02/images/lab02s12.png)
 
+---
 
 ## Creating Our First Route - 'List All Donations'
 
