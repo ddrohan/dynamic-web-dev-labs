@@ -92,8 +92,6 @@ router.incrementUpvotes = function(req, res) {
     //Add 1 to upvotes property of the selected donation based on its id
     var donation = getByValue(donations,req.params.id);
     donation.upvotes += 1;
-
-    router.findAll(req,res);      
 }
 ```
 
