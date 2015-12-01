@@ -1,4 +1,4 @@
-# Step 2 - Setup
+# Step 2 - Project Setup
 
 First thing you should do is download the starter code (or the solution to the previous lab) **[here](../zips/donationweb-3.0.solution.zip)** and then extract it to your single parent folder for all your web app projects you created for previous labs. 
 
