@@ -115,18 +115,37 @@ You could continue to use the browser to test the APi, but things will get a bit
 ---
 ## Creating Our Second Route - 'findOne'
 
-We don't necessarily need this route but it's a useful exercise so we're going to create a simple function (and route) to redirect the user back to the home page if any **GET** request other than those expected is processed.
+Our first route returned all the donations to a client, but what if the client only want's to get at a single donation - that's what our next route 'findOne' will do.
 
-Here's the function (***home***) to be added to our **routes/donations.js** file
+
+Here's the function (***findOne***) to be added to our **routes/donations.js** file
 
 ```javascript
-router.home = function(req, res) {
-  //route to handle all angular requests
-  res.sendFile('../public/index.ejs'); // load our public/index.ejs file
+router.findOne = function(req, res) {
+
+    var donation = getByValue(donations,req.params.id);
+
+    if(donation != null)
+        res.json(donation);
+    else
+        res.json({ message: 'Donation NOT Found!'});
 }
 ```
 and our route for **app.js**
 
 ```javascript
-app.get('*', donations.home);
+app.get('/donations/:id', donations.findOne);
+```
+You've probably noticed (or maybe you didn't!) that there's a 'helper' function (***getByValue***) we need to write for our 'findOne' function to work properly.
+
+
+
+Here's the function stub, so see can you work out how to find the donation object in ***arr*** with ***id*** id and return it.
+
+```javascript
+function getByValue(arr, id) {
+
+// put your code solution here
+    
+}
 ```
