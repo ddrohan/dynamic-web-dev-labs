@@ -1,6 +1,6 @@
 # Objectives
 
-In this Lab, you will be required to build the next version of our Donation Case Study Web App, called **Donation 4.0**.  We will build on the previous lab, so you can either use your own version of **Donation 3.0** or download the starter code **[here](../zips/donationweb-3.0.solution.zip)**. In this version we will be implementing the Model-View-Controller pattern (and reusing our previous solution).  
+In this Lab, you will be required to build the first version of our Donation Case Study Web App, called **DonationWeb 1.0**.  We will scaffold the app similar to Lab 1, so you can either use your own version of **Donation 3.0** or download the starter code **[here](../zips/donationweb-3.0.solution.zip)**. In this version we will be implementing the Model-View-Controller pattern (and reusing our previous solution).  
 
 On completion of this lab you'll be able to
 
