@@ -4,6 +4,7 @@ Before we can think about accessing data on our Server via a RESTful APi, we fir
 
 The first thing we need to do is create a new directory in our root directory called ***models/*** 
 
+![](../lab02/images/lab02s03.png)
 
 and within that directory create a new file called **donations.js**.
 
