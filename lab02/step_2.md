@@ -32,11 +32,10 @@ if you've followed all the steps correctly you should be able to run your app (o
 
 Now, if you'd rather your browser launch automatically you can configure you 'Run' options and choose the Browser you prefer
 
-![](../lab01/images01/lab01s10.png)
 
 Just be sure to 'tick' the 'After Launch' check box
 
-![](../lab01/images01/lab01s11.png)
+![](../lab02/images/lab02config.png)
 
 Close the browser tab/window and run your app again, to confirm your new run configuration is correct.
 
