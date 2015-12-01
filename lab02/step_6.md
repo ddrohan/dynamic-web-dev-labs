@@ -86,6 +86,12 @@ app.delete('/donations/:id', donations.deleteDonation);
 Notice we are using our own 'lookup' function to find a particular donation but be sure you understand how it works....
 
 ---
+### Testing Our 'Delete' Route
+
+Now that we have an Add 'service' in our RESTful APi, we should really test it via our REST Client.
+
+
+---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
 
 Finally, here's what we need to implement the 'Upvote' route
