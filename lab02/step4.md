@@ -77,19 +77,22 @@ You probably got something like this
 
 ![](../lab02/images/lab02s18.png)
 
-![](../lab02/images/lab02s19.png)
+ddd
 
 ![](../lab02/images/lab02s20.png)
 
+![](../lab02/images/lab02s19.png)
+
 ![](../lab02/images/lab02s21.png)
 
-As we already have data in our Model, we can test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
-
+we can also test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
 
 ![](../images/lab4.step4.1.png)
 
+but our REST Client will suffice for the moment.
+
 ---
-## Creating Our Second Route - 'Go Home'
+## Creating Our Second Route - 'findOne'
 
 We don't necessarily need this route but it's a useful exercise so we're going to create a simple function (and route) to redirect the user back to the home page if any **GET** request other than those expected is processed.
 
