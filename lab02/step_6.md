@@ -15,9 +15,8 @@ function getByValue(arr, id) {
 Recall our routes, described as follows:
 
 * GET **/donations** - return a list of donations and associated metadata
-* 
-* POST **/donations** - create a new donation
 * GET **/donations/:id** - return an individual donation with associated metadata
+* POST **/donations** - create a new donation
 * PUT **/donations/:id/upvote** - upvote a donation, notice we use the donation ID in the URL
 * DELETE **/donations/:id** - delete a donation by ID
 
@@ -26,8 +25,6 @@ We've already implemented the first two, so now let's have a go at
 * Adding a new donation
 * Deleting a donation and
 * 'Upvoting' a donation
-
-We'll leave finding an individual donation for the final lab - Lab 5.
 
 ---
 ## Creating Our 'Add' Route - 'addDonation'
@@ -42,13 +39,17 @@ router.addDonation = function(req, res) {
     // req.body.paymenttype (for paymenttype)
     // req.body.amount (for amount)
     // 0 (for upvotes)
+    var currentSize = donations.length;
     
-    donations.push(/*fill in missing code here */);
+    donations.push(//add the relevant code here);
 
-    res.json({ message: 'Donation Added!'});
+    if((currentSize + 1) == donations.length)
+        res.json({ message: 'Donation Added!'});
+    else
+        res.json({ message: 'Donation NOT Added!'});
 }
 ```
-Notice we only return a json message confirming we've added the donation.
+Notice we only return a json message confirming (or Not) we've added the donation.
 
 Next, inside our **app.js** we need to define the actual route which will trigger the above function so keeping in mind the route is **/donations** with a **POST** request, see can you make the necessary additions?
 
