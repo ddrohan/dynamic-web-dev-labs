@@ -17,7 +17,7 @@
        * [Step 2 - Project Setup](lab02/step_2.md)
        * [Step 3 - Creating our 'Model'](lab02/step_3.md)
        * [Step 4 - Adding our 'Routes', Part 1 ('findAll' & 'findOne')](lab02/step4.md)
-       * [Step 6 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')](lab02/step_6.md)
+       * [Step 5 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')](lab02/step_6.md)
        * [Step 7 - Updating our 'Views', Part 2](lab02/step_7.md)
        * [Solution](lab02/solution.md)
    * [Lab 3 - DonationWeb 2.0 (Mongo, Express & Node)](lab03/lab_3.md)
