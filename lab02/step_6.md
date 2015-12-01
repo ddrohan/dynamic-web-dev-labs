@@ -1,5 +1,5 @@
 
-# Step 6 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')
+# Step 5 - Adding our 'Routes', Part 2 ('Add', 'Delete' & 'UpVotes')
 
 Recall our routes, described as follows:
 
