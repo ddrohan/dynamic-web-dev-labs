@@ -56,7 +56,7 @@ Next, inside our **app.js** we need to define the actual route which will trigge
 ---
 ### Testing Our 'Add' Route
 
-Now that we have an Add 'service' in our RESTful APi, we should really test it via our REST Client.
+Now that we have a POST 'service' in our RESTful APi, we should really test it via our REST Client.
 
 ---
 ## Creating Our 'Delete' Route - 'deleteDonation'
@@ -88,7 +88,7 @@ Notice we are using our own 'lookup' function to find a particular donation but 
 ---
 ### Testing Our 'Delete' Route
 
-Now that we have an Add 'service' in our RESTful APi, we should really test it via our REST Client.
+Now that we have a DELETE 'service' in our RESTful APi, we should really test it via our REST Client.
 
 
 ---
@@ -111,5 +111,11 @@ router.incrementUpvotes = function(req, res) {
 ```javascript
 app.put('/donations/:id/votes', donations.incrementUpvotes);
 ```
+---
+### Testing Our 'Upvote' Route
 
+Now that we have a PUT 'service' in our RESTful APi, we should really test it via our REST Client.
+
+
+---
 All done!
