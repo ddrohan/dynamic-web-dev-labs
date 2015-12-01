@@ -67,9 +67,15 @@ You probably got something like this
 
 ![](../lab02/images/lab02s13.png)
 
+We're trying to call a function 'findAll' on an object (donations) that the js interpreter can't find.
+
 ![](../lab02/images/lab02s14.png)
 
+Ordinarily, we'd have to manually add in the javascript we need, but we can get WebStorm to do this for us - highlight the error and hit Alt+Enter (on a Mac) and you get the following;
+
 ![](../lab02/images/lab02s15.png)
+
+Choose the first 'fix' and the necessary 'requires' statement is added to our js file - kinda handy don't you think?!
 
 ![](../lab02/images/lab02s16.png)
 
