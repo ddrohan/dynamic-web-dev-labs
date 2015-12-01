@@ -18,6 +18,12 @@ The actions map directly to several routes, which are described as follows:
 * GET **/donations/:id** - return an individual donation with associated metadata
 
 ---
+Before we proceed, WebStorm has a very nice (and useful!) feature to assist the developer in writing javascript - **Code Assistance**, which happens to disabled by default, so we need to turn it on, as follows;
+
+
+![](../lab02/images/lab02s10.png)
+
+
 ## Creating Our First Route - 'List All Donations'
 
 To keep things organised we will be defining these routes in a **routes/donations.js** file. 
