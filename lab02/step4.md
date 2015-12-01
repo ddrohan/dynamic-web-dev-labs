@@ -87,11 +87,23 @@ Over time, this would probably become a bit time consuming, but WebStorm to the 
 
 ![](../lab02/images/lab02s17.png)
 
+and you get the **REST Client** window, so select/type in the following for out test request
+
+* HTTP Method **GET**
+* Host/port **http://localhost:3000**
+* Path **/donations**
+
 ![](../lab02/images/lab02s18.png)
 
-ddd
+On the 'Request' tab, update the 'Accept' Header **application/json**
 
 ![](../lab02/images/lab02s20.png)
+
+and 'play' the request
+
+![](../lab02/images/lab02s23.png)
+
+
 
 ![](../lab02/images/lab02s19.png)
 
