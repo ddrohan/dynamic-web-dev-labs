@@ -103,14 +103,14 @@ and 'play' the request
 
 ![](../lab02/images/lab02s23.png)
 
+![](../lab02/images/lab02s23a.png)
 
+If everything goes according to plan, you'll see the same json list of donations.
 
 ![](../lab02/images/lab02s19.png)
 
-![](../lab02/images/lab02s21.png)
 
-
-but our REST Client will suffice for the moment.
+You could continue to use the browser to test the APi, but things will get a bit tricky when we want to test our add & update requests so we'll stick with the REST Client for the moment.
 
 ---
 ## Creating Our Second Route - 'findOne'
