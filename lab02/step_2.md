@@ -16,7 +16,7 @@ and browse to the location you want to store your project files. It's probably a
 
 ![](../lab02/images/lab02s01.png)
 
-![](../lab02/images/lab01s02.png)
+![](../lab02/images/lab02s02.png)
 
 and make sue you choose **EJS** as the templating option (more on this later)
 
