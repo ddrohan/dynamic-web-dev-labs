@@ -4,12 +4,12 @@ In this Lab, you will be required to build the first version of our Donation Cas
 
 On completion of this lab you'll be able to
 
-* create a full **NodeJS** app using **express** 
+* create a simple **NodeJS** app using **express** 
 * run this app as a **NodeJS Server** and process client requests
 * be able to use **npm** to install dependency modules
-* be able to create **client-side** requests in **Angular** and render the results in our **Views**
+* be able to implement a simple Web APi
 
-In this version we will be implementing a simple Web Service with the following routes
+In this version we will be implementing a simple **RESTful APi** with the following routes
 
   <p>
     <li><b>GET /donations</b>  - return a list of donations and associated metadata</li>
