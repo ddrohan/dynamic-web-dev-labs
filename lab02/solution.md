@@ -2,3 +2,5 @@
 
 You can find the solution to this lab **[here](../zips/d.zip)** and your project should look something like this
 
+
+![](../lab02/images/lab02project.png)
