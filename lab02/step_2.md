@@ -18,17 +18,15 @@ and browse to the location you want to store your project files. It's probably a
 
 ![](../lab02/images/lab02s02.png)
 
-and make sue you choose **EJS** as the templating option (more on this later)
+and make sue you choose **EJS** again as the templating option (like before)
 
-![](../lab01/images01/lab01s05.png)
+Your project should now look like this
 
-As you can see below, this will auto-generate a node web app, creating all the necessary folders and files we need to get started. *EJS* specifies we want to use the **Embedded JavaScript Templates** (instead of the default which is Jade).
+![](../lab02/images/lab02s03.png)
 
-![](../lab01/images01/lab01s06.png)
+Once again, click on the 'play' button to run/launch your Web App..
 
-Now, click on the 'play' button to run/launch your Web App..
-
-if you've folled all the steps correctly you should be able to run your app (or visit [http://localhost:3000](http://localhost:3000)) and see the following
+if you've followed all the steps correctly you should be able to run your app (or visit [http://localhost:3000](http://localhost:3000)) and see the following
 
 ![](../images/lab4.step2.1.png)
 
