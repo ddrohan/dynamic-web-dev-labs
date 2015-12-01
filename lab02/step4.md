@@ -65,7 +65,23 @@ Now, try and run your app and see what happens....
 
 You probably got something like this
 
-![](../lab02/images/lab02s12.png)
+![](../lab02/images/lab02s13.png)
+
+![](../lab02/images/lab02s14.png)
+
+![](../lab02/images/lab02s15.png)
+
+![](../lab02/images/lab02s16.png)
+
+![](../lab02/images/lab02s17.png)
+
+![](../lab02/images/lab02s18.png)
+
+![](../lab02/images/lab02s19.png)
+
+![](../lab02/images/lab02s20.png)
+
+![](../lab02/images/lab02s21.png)
 
 As we already have data in our Model, we can test it by pointing the browser at [http://localhost:3000/donations](http://localhost:3000/donations) and we should get back a json string of our data, like so
 
