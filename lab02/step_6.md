@@ -1,5 +1,5 @@
 
-# Step 5 - Adding our 'Routes', Part 2 ('addDonation', 'deleteDonation' & 'incrementUpVotes')
+# Step 5 - Adding our 'Routes', Part 2 ('addDonation', 'deleteDonation' & 'incrementUpvotes')
 
 Before we go any further, here's the missing code from the previous step
 
