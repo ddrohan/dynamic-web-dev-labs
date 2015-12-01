@@ -149,3 +149,10 @@ function getByValue(arr, id) {
     
 }
 ```
+---
+### Testing Our 'findOne' Route
+
+Now that we have a GET 'service' in our RESTful APi, we should really test it via our REST Client.
+
+
+---
