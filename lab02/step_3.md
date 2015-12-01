@@ -24,8 +24,8 @@ var donations = [
 
 module.exports = donations;
 ```
-Notice the extra field (id) in our model, this will be useful later on for deleting etc.
+Notice the field (id) in our model, this will be useful later on for deleting etc.
 
 Your project should now look something like this
 
-![](../images/lab4.step3.1.png)
+![](../lab02/images/lab02s09.png)
