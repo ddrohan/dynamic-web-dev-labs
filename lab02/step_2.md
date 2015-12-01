@@ -39,4 +39,4 @@ Just be sure to 'tick' the 'After Launch' check box
 
 Close the browser tab/window and run your app again, to confirm your new run configuration is correct.
 
-The next step will involve customising our home page (although customising is a bit of a stretch!)
+The next step will involve implementing some of our Web Service APi and some WebStorm configuration changes.
