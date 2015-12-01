@@ -54,6 +54,11 @@ Notice we only return a json message confirming (or Not) we've added the donatio
 Next, inside our **app.js** we need to define the actual route which will trigger the above function so keeping in mind the route is **/donations** with a **POST** request, see can you make the necessary additions?
 
 ---
+### Testing Our 'Add' Route
+
+Now that we have an Add 'service' in our RESTful APi, we should really test it via our REST Client.
+
+---
 ## Creating Our 'Delete' Route - 'deleteDonation'
 Again, we start with the function in our **routes/donations.js** file
 
