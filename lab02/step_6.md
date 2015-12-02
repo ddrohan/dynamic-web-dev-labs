@@ -60,11 +60,28 @@ Now that we have a POST 'service' in our RESTful APi, let's test it via our REST
 
 ###The Request
 
-![](../lab02/images/lab02s19.png)
+![](../lab02/images/lab02s27.png)
+
+We need to fill in the **Request Body** for our POST
+
+![](../lab02/images/lab02s28.png)
+
+POSTing donation data in JSON format
+
+~~~json
+{"id":0,"paymenttype":"Direct","amount":500,"upvotes":0}
+~~~
+
+![](../lab02/images/lab02s29.png)
+
 
 ###The Response
 
-![](../lab02/images/lab02s19.png)
+![](../lab02/images/lab02s30.png)
+
+GET all donations again to confirm
+
+![](../lab02/images/lab02s31.png)
 
 ---
 ## Creating Our 'Delete' Route - 'deleteDonation'
