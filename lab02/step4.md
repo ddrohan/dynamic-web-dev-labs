@@ -4,18 +4,20 @@
 With our "backend" model in place, it's now time to open some routes that a client can interact with. The following are a list of actions a user can perform:
 
 * view all donations
+* Find a single donation
 * Add a new donation
 * Upvote a donation
 * Delete a donation
-* Find a single donation
+
 
 The actions map directly to several routes, which are described as follows:
 
 * GET **/donations** - return a list of donations and associated metadata
+* GET **/donations/:id** - return an individual donation with associated metadata
 * POST **/donations** - create a new donation
 * PUT **/donations/:id/upvote** - upvote a donation, notice we use the donation ID in the URL
 * DELETE **/donations/:id** - delete a donation by ID
-* GET **/donations/:id** - return an individual donation with associated metadata
+
 
 ---
 Before we proceed, WebStorm has a very nice (and useful!) feature to assist the developer in writing javascript - **Code Assistance**, which happens to disabled by default, so we need to turn it on, as follows;
