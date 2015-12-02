@@ -56,7 +56,7 @@ Next, inside our **app.js** we need to define the actual route which will trigge
 ---
 ### Testing Our 'Add' Route
 
-Now that we have a POST 'service' in our RESTful APi, we should really test it via our REST Client.
+Now that we have a POST 'service' in our RESTful APi, let's test it via our REST Client.
 
 ###The Request
 
