@@ -84,7 +84,6 @@ GET all donations again to confirm
 ![](../lab02/images/lab02s31.png)
 
 ---
----
 ## Creating Our 'Upvote' Route - 'incrementVotes'
 
 Here's what we need to implement the 'Upvote' route
