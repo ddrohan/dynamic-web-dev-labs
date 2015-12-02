@@ -8,7 +8,7 @@ We will eventually be using our previously developed Android App to make client 
 
 ###1. Find your IP address
 
-blaa blaa
+run ***ipconfig*** (windows) or ***ifconfig*** (mac) to get your machines IP address.
 
 ###2. Update your Host URL in Android REST APi
 
