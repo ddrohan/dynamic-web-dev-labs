@@ -84,6 +84,45 @@ GET all donations again to confirm
 ![](../lab02/images/lab02s31.png)
 
 ---
+---
+## Creating Our 'Upvote' Route - 'incrementVotes'
+
+Here's what we need to implement the 'Upvote' route
+
+**routes/donations.js**
+
+```javascript
+router.incrementUpvotes = function(req, res) {
+    //Add 1 to upvotes property of the selected donation based on its id
+    var donation = getByValue(donations,req.params.id);
+    donation.upvotes += 1;
+}
+```
+
+**app.js**
+
+```javascript
+app.put('/donations/:id/votes', donations.incrementUpvotes);
+```
+---
+### Testing Our 'Upvote' Route
+
+Now that we have a PUT 'service' in our RESTful APi, let's test it via our REST Client.
+
+###The Request
+
+UPDATEing donation votes with id '941345'
+~~~html
+/donations/941345/votes
+~~~
+
+![](../lab02/images/lab02s35.png)
+
+###The Response
+
+![](../lab02/images/lab02s36.png)
+
+---
 ## Creating Our 'Delete' Route - 'deleteDonation'
 Again, we start with the function in our **routes/donations.js** file
 
@@ -117,56 +156,20 @@ Now that we have a DELETE 'service' in our RESTful APi, let's test it via our RE
 
 ###The Request
 
-![](../lab02/images/lab02s32.png)
-
-###The Response
-
-![](../lab02/images/lab02s19.png)
-
----
-## Creating Our 'Upvote' Route - 'incrementVotes'
-
-Finally, here's what we need to implement the 'Upvote' route
-
-**routes/donations.js**
-
-```javascript
-router.incrementUpvotes = function(req, res) {
-    //Add 1 to upvotes property of the selected donation based on its id
-    var donation = getByValue(donations,req.params.id);
-    donation.upvotes += 1;
-}
-```
-
-**app.js**
-
-```javascript
-app.put('/donations/:id/votes', donations.incrementUpvotes);
-```
----
-### Testing Our 'Upvote' Route
-
-Now that we have a PUT 'service' in our RESTful APi, we should really test it via our REST Client.
-
-###The Request
-
-requesting donation with id '1000001'
+DELETEing donation with id '1000001'
 ~~~html
 /donations/1000001
 ~~~
 
-![](../lab02/images/lab02s24.png)
+![](../lab02/images/lab02s32.png)
 
 ###The Response
 
-![](../lab02/images/lab02s25.png)
+![](../lab02/images/lab02s33.png)
 
-requesting donation with id '10000011'
-~~~html
-/donations/10000011
-~~~
+A quick GET all to confirm
 
-![](../lab02/images/lab02s26.png)
+![](../lab02/images/lab02s34.png)
 
----
+___
 #All Done!
