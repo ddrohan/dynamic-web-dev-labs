@@ -13,8 +13,8 @@ In this version we will be implementing a simple **RESTful APi** with the follow
 
   <p>
     <li><b>GET /donations</b>  - return a list of donations and associated metadata</li>
-    <li><b>POST /donations</b>  - create a new donation</li>
     <li><b>GET /donations/:id</b>  - return an individual donation with associated metadata</li>
+    <li><b>POST /donations</b>  - create a new donation</li>
     <li><b>PUT /donations/:id/upvote</b>  - upvote a donation, notice we use the donation ID in the URL</li>
     <li><b>DELETE /donations/:id</b>  - delete a donation by ID</li>
 
