@@ -41,7 +41,7 @@ router.addDonation = function(req, res) {
     // 0 (for upvotes)
     var currentSize = donations.length;
     
-    donations.push(//add the relevant code here);
+    donations.push(/*add the relevant code here*/);
 
     if((currentSize + 1) == donations.length)
         res.json({ message: 'Donation Added!'});
