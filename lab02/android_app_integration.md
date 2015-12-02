@@ -14,12 +14,14 @@ run ***ipconfig*** (windows) or ***ifconfig*** (mac) to get your machines IP add
 
 ###3. Test your Android App
 
-blaa blaa
+**Initially Launch of App (Total is $2700, from Node Web APi)**
+
+![](../lab02/images/lab02android03.png)
+
+**List all our Donations in the Report**
 
 ![](../lab02/images/lab02android01.png)
 
+**Upvote a Donation (using the WebStorm REST Client)**
 
 ![](../lab02/images/lab02android02.png)
-
-
-![](../lab02/images/lab02android03.png)
