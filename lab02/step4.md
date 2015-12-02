@@ -107,7 +107,7 @@ and 'play' the request
 
 ![](../lab02/images/lab02s23a.png)
 
-If everything goes according to plan, you'll see the same json list of donations.
+If everything goes according to plan, you'll see the same json list of donations in the **Response**.
 
 ![](../lab02/images/lab02s19.png)
 
