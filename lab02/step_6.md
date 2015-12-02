@@ -113,11 +113,11 @@ Notice we are using our own 'lookup' function to find a particular donation but 
 ---
 ### Testing Our 'Delete' Route
 
-Now that we have a DELETE 'service' in our RESTful APi, we should really test it via our REST Client.
+Now that we have a DELETE 'service' in our RESTful APi, let's test it via our REST Client.
 
 ###The Request
 
-![](../lab02/images/lab02s19.png)
+![](../lab02/images/lab02s32.png)
 
 ###The Response
 
