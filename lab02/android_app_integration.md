@@ -22,6 +22,6 @@ run ***ipconfig*** (windows) or ***ifconfig*** (mac) to get your machines IP add
 
 ![](../lab02/images/lab02android01.png)
 
-**Upvote a Donation (using the WebStorm REST Client)**
+**Upvote a Donation (using the WebStorm REST Client) and Refresh Report**
 
 ![](../lab02/images/lab02android02.png)
