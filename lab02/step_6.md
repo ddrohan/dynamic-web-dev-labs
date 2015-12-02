@@ -133,11 +133,13 @@ Now that we have a PUT 'service' in our RESTful APi, we should really test it vi
 
 ###The Request
 
-![](../lab02/images/lab02s19.png)
+![](../lab02/images/lab02s24.png)
 
 ###The Response
 
-![](../lab02/images/lab02s19.png)
+![](../lab02/images/lab02s25.png)
+
+![](../lab02/images/lab02s26.png)
 
 ---
 #All Done!
