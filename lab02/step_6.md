@@ -133,11 +133,21 @@ Now that we have a PUT 'service' in our RESTful APi, we should really test it vi
 
 ###The Request
 
+requesting donation with id '1000001'
+~~~html
+/donations/1000001
+~~~
+
 ![](../lab02/images/lab02s24.png)
 
 ###The Response
 
 ![](../lab02/images/lab02s25.png)
+
+requesting donation with id '10000011'
+~~~html
+/donations/10000011
+~~~
 
 ![](../lab02/images/lab02s26.png)
 
