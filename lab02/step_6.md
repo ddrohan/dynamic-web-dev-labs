@@ -58,6 +58,14 @@ Next, inside our **app.js** we need to define the actual route which will trigge
 
 Now that we have a POST 'service' in our RESTful APi, we should really test it via our REST Client.
 
+###The Request
+
+![](../lab02/images/lab02s19.png)
+
+###The Response
+
+![](../lab02/images/lab02s19.png)
+
 ---
 ## Creating Our 'Delete' Route - 'deleteDonation'
 Again, we start with the function in our **routes/donations.js** file
@@ -90,6 +98,13 @@ Notice we are using our own 'lookup' function to find a particular donation but 
 
 Now that we have a DELETE 'service' in our RESTful APi, we should really test it via our REST Client.
 
+###The Request
+
+![](../lab02/images/lab02s19.png)
+
+###The Response
+
+![](../lab02/images/lab02s19.png)
 
 ---
 ## Creating Our 'Upvote' Route - 'incrementVotes'
@@ -116,6 +131,13 @@ app.put('/donations/:id/votes', donations.incrementUpvotes);
 
 Now that we have a PUT 'service' in our RESTful APi, we should really test it via our REST Client.
 
+###The Request
+
+![](../lab02/images/lab02s19.png)
+
+###The Response
+
+![](../lab02/images/lab02s19.png)
 
 ---
 #All Done!
