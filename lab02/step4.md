@@ -156,7 +156,7 @@ Now that we have another GET 'service' in our RESTful APi, we should really test
 
 ###The Request
 
-requesting donation with id '1000001'
+GETing donation with id '1000001'
 ~~~html
 /donations/1000001
 ~~~
