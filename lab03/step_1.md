@@ -4,10 +4,9 @@ In this Lab, you will be required to build the next version of our Donation Case
 
 On completion of this lab you'll be able to
 
-* create a full **NodeJS** app using **express** 
+* create a **NodeJS** web app using **express** 
 * run this app as a **NodeJS Server** and process client requests
 * be able to use **npm** to install dependency modules
-* be able to create **client-side** requests in **Angular** and render the results in our **Views**
 
 AND
 
