@@ -11,3 +11,24 @@ if everything goes to plan you should be able to visit [http://localhost:3000](h
 ![](../images/lab4.step2.1.png)
 
 Next Step!
+
+
+![](../lab03/images/lab02s201.png)
+
+![](../lab03/images/lab02s202.png)
+
+![](../lab03/images/lab02s203.png)
+
+![](../lab03/images/lab02s204.png)
+
+![](../lab03/images/lab02s205.png)
+
+![](../lab03/images/lab02s206.png)
+
+![](../lab03/images/lab02s207.png)
+
+![](../lab03/images/lab02s208.png)
+
+![](../lab03/images/lab02s209.png)
+
+![](../lab03/images/lab02s210.png)
