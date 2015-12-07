@@ -4,12 +4,7 @@ First thing you should do is download the starter code (or the solution to the p
 
 Rename the extracted folder, (or copy your own version) to **donationweb-2.0**
 
-Open your **donationweb-2.0** folder and type the following to launch the server
-
-```
-npm start
-
-```
+Open your **donationweb-2.0** web app (in WebStorm) and launch it.
 
 if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and see the following
 
