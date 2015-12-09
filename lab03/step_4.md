@@ -25,6 +25,12 @@ router.findAll = function(req, res) {
 
 Notice how we use the Mongoose 'find' function to retrieve all the objects from the 'Model'.
 
+Make sure you have the proper **requires** statement in your routes file
+
+~~~javascript
+var Donation = require('../models/donations');
+~~~
+
 ---
 ## Modifying Our Second Route - 'Add a Donation'
 
