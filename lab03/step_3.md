@@ -16,7 +16,6 @@ mongo
 We connect to our local MongoDB instance by adding the following code into our donations.js **routes** file:
 
 ```javascript
-var mongo = require('mongodb');
 var mongoose = require('mongoose'); 
 
 ...
