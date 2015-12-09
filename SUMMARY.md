@@ -25,7 +25,7 @@
        * [Step 2 - Setup](lab03/step_2.md)
        * [Step 3 - Creating our Database Schema](lab03/step_3.md)
        * [Step 4 - Modifying our 'Routes', Part 1 ( 'findAll' & 'findOne' )](lab03/step_4.md)
-       * [Step 5 - Modifying our 'Routes', Part 2 ( 'deleteDonation' & 'incrementVotes' )](lab03/step_5.md)
+       * [Step 5 - Modifying our 'Routes', Part 2 ( 'addDonation', 'deleteDonation' & 'incrementVotes' )](lab03/step_5.md)
        * [Step 6 - Updating our 'Views'](lab03/step_6a.md)
        * [Solution](lab03/solutiona.md)
    * [Lab 4 - DonationWeb 3.0 (Angular App)](lab04/lab_4a.md)
