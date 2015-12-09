@@ -28,6 +28,11 @@ update your **node_modules** path to point to the current project
 
 Launch it again, if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and you should see the following
 
+
+![](../lab03/images/lab02s216.png)
+
+![](../lab03/images/lab02s217.png)
+
 ![](../lab03/images/lab02s215.png)
 
 
