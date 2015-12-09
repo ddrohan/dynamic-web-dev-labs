@@ -8,6 +8,10 @@ Open your **donationweb-2.0** web app (in WebStorm)
 
 ![](../lab03/images/lab02s213.png)
 
+and then change your 'title' like so
+
+![](../lab03/images/lab02s214.png)
+
 and launch it.
 
 If you get any errors, you may have to reconfigure your project (as it's a copy) and fix the **node modules** path as follows:
