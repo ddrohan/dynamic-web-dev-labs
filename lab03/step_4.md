@@ -64,6 +64,38 @@ There's a bit more going on here, so make sure you understand the general jist o
 
 You may need to restart your server but if everything goes to plan, you should now be able to store and retrieve 'donations' from your mongodb database.
 
+
+---
+
+
 Let's test our **addDonation** using WebStorms REST Client (like before)
 
+### Testing Our 'Add' Route
+
+Now that we have a POST 'service' in our RESTful APi, let's test it via our REST Client.
+
+###The Request
+
+![](../lab02/images/lab02s27.png)
+
+We need to fill in the **Request Body** for our POST
+
+![](../lab02/images/lab02s28.png)
+
+POSTing donation data in JSON format
+
+~~~json
+{"id":0,"paymenttype":"Direct","amount":500,"upvotes":0}
+~~~
+
+![](../lab02/images/lab02s29.png)
+
+
+###The Response
+
+![](../lab02/images/lab02s30.png)
+
+GET all donations again to confirm
+
+![](../lab02/images/lab02s31.png)
 
