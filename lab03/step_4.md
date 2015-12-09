@@ -71,7 +71,6 @@ Let's test our **addDonation** using WebStorms REST Client (like before)
 
 ### Testing Our 'Add' Route
 
-Now that we have a POST 'service' in our RESTful APi, let's test it via our REST Client.
 
 ###The Request
 
