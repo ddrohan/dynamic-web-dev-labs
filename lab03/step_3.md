@@ -58,7 +58,7 @@ Next we register that model with the global mongoose object we imported using re
 
 **It is strongly recommended to run your web server at this point, to ensure everything is configured correctly and before we go ahead an modify our routes to interact with the database.**
 
-So as before, go ahead and fire up the server - but make sure your mongodb is running first, and you get the 'connected to database' message at the console.
+So as before, go ahead and fire up the server - but make sure your mongodb is running first, and you get the **'connected to database'** message at the console.
 
 
-
+![](../lab03/images/lab02s218.png)
