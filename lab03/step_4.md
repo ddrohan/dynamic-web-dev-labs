@@ -43,11 +43,11 @@ GETing all the donations in our mongodb database
 /donations
 ~~~
 
-![](../lab02/images/lab02s24.png)
+![](../lab03/images/lab03s401.png)
 
 ###The Response
 
-![](../lab02/images/lab02s25.png)
+![](../lab03/images/lab03s402.png)
 
 ---
 ## Creating Our Second Route - 'findOne'
@@ -98,18 +98,18 @@ GETing donation with id '566594b787282d5d60eedc23'
 /donations/566594b787282d5d60eedc23
 ~~~
 
-![](../lab02/images/lab02s24.png)
+![](../lab03/images/lab03s403.png)
 
 ###The Response
 
-![](../lab02/images/lab02s25.png)
+![](../lab03/images/lab03s403a.png)
 
 requesting donation with id '566594b787282d5d60eedc**233**'
 ~~~html
 /donations/566594b787282d5d60eedc233
 ~~~
 
-![](../lab02/images/lab02s26.png)
+![](../lab03/images/lab03s404.png)
 
 ---
 
