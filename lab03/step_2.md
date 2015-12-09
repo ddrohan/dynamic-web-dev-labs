@@ -49,6 +49,8 @@ and
 npm install mongodb
 ~~~
 
+Your project should now look like this
+
 ![](../lab03/images/lab02s217.png)
 
 
