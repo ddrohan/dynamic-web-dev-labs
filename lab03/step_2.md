@@ -53,12 +53,17 @@ Your project should now look like this
 
 ![](../lab03/images/lab02s217.png)
 
+The last step in our 'Setup' is to kick off our localhost mongodb server and insert a few 'Donations' so we can test our refactored 'findAll' function (next step).
 
-
+Open up a terminal window and launch the mongodb server
 
 ![](../lab03/images/lab02s201.png)
 
+Open another, separate window and launch the client
+
 ![](../lab03/images/lab02s202.png)
+
+In the client window, create/switch to the 'donationsdb' database
 
 ![](../lab03/images/lab02s203.png)
 
