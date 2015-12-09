@@ -112,7 +112,3 @@ requesting donation with id '566594b787282d5d60eedc**233**'
 ![](../lab03/images/lab03s404.png)
 
 ---
-
-//////////////////////
-
-
