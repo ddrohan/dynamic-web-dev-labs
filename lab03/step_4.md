@@ -36,13 +36,11 @@ to include the mongoose schema.
 ---
 ### Testing Our 'findAll' Route
 
-Now that we have another GET 'service' in our RESTful APi, we should really test it via our REST Client.
-
 ###The Request
 
-GETing donation with id '1000001'
+GETing all the donations in our mongodb database
 ~~~html
-/donations/1000001
+/donations
 ~~~
 
 ![](../lab02/images/lab02s24.png)
@@ -51,21 +49,6 @@ GETing donation with id '1000001'
 
 ![](../lab02/images/lab02s25.png)
 
-requesting donation with id '10000011'
-~~~html
-/donations/10000011
-~~~
-
-![](../lab02/images/lab02s26.png)
-
----
-
-//////////////////////
-
-
-
-
-////////////////////
 ---
 ## Creating Our Second Route - 'findOne'
 
@@ -110,9 +93,9 @@ Now that we have another GET 'service' in our RESTful APi, we should really test
 
 ###The Request
 
-GETing donation with id '1000001'
+GETing donation with id '566594b787282d5d60eedc23'
 ~~~html
-/donations/1000001
+/donations/566594b787282d5d60eedc23
 ~~~
 
 ![](../lab02/images/lab02s24.png)
@@ -121,7 +104,7 @@ GETing donation with id '1000001'
 
 ![](../lab02/images/lab02s25.png)
 
-requesting donation with id '10000011'
+requesting donation with id '566594b787282d5d60eedc**20**'
 ~~~html
 /donations/10000011
 ~~~
