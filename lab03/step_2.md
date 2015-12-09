@@ -82,12 +82,4 @@ etc.
 
 ![](../lab03/images/lab02s205.png)
 
-![](../lab03/images/lab02s206.png)
-
-![](../lab03/images/lab02s207.png)
-
-![](../lab03/images/lab02s208.png)
-
-![](../lab03/images/lab02s209.png)
-
-![](../lab03/images/lab02s210.png)
+We now have a few records or 'documents' we can access via our Node Web Server (next step).
