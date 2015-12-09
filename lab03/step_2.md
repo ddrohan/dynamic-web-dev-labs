@@ -67,7 +67,14 @@ In the client window, create/switch to the 'donationsdb' database
 
 ![](../lab03/images/lab02s203.png)
 
-Insert a few records and make sure you name your collection **donations** and **NOT** donationsdb, (as in the screenshots)
+Insert a few records and make sure you name your collection **donations** and **NOT** donationsdb, (as in the screenshots), so you'll be saying something like
+
+
+~~~
+db.donations.find()
+~~~
+
+etc.
 
 ![](../lab03/images/lab02s204.png)
 
