@@ -31,6 +31,9 @@ Make sure you have the proper **requires** statement in your routes file
 var Donation = require('../models/donations');
 ~~~
 
+to include the mongoose schema.
+
+
 ---
 ## Modifying Our Second Route - 'Add a Donation'
 
