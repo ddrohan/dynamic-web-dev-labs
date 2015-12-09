@@ -69,9 +69,6 @@ router.findOne = function(req, res) {
 
 Notice the use of the **req** parameter to pass in the ***id*** of the donation we require.
 
-
-
-
 ---
 ### Testing Our 'findOne' Route
 
