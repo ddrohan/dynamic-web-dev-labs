@@ -67,7 +67,11 @@ In the client window, create/switch to the 'donationsdb' database
 
 ![](../lab03/images/lab02s203.png)
 
+Insert a few records and make sure you name your collection **donations** and **NOT** donationsdb, (as in the screenshots)
+
 ![](../lab03/images/lab02s204.png)
+
+
 
 ![](../lab03/images/lab02s205.png)
 
