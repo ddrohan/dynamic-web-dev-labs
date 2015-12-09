@@ -32,7 +32,7 @@ Launch it again, if everything goes to plan you should be able to visit [http://
 ![](../lab03/images/lab02s215.png)
 
 
-The next thing to do is to add the **mongod** and **mongoose** module dependencies to our project. Launch the terminal window 
+The next thing to do is to add the **mongodb** and **mongoose** module dependencies to our project. Launch the terminal window 
 
 ![](../lab03/images/lab02s216.png)
 
@@ -74,7 +74,7 @@ Insert a few records and make sure you name your collection **donations** and **
 db.donations.find()
 ~~~
 
-etc.
+etc. etc.
 
 ![](../lab03/images/lab02s204.png)
 
