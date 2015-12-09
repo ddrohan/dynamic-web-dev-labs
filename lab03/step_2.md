@@ -78,7 +78,7 @@ etc.
 
 ![](../lab03/images/lab02s204.png)
 
-
+'Find' all the donations, just to confirm they exist.
 
 ![](../lab03/images/lab02s205.png)
 
