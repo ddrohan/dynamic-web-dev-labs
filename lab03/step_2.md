@@ -14,11 +14,19 @@ and then change your 'title' like so
 
 and launch it.
 
-If you get any errors, you may have to reconfigure your project (as it's a copy) and fix the **node modules** path as follows:
+You may not get any errors, but you should probably reconfigure your project (as it's a copy) and fix the **node modules** path as follows:
 
+Open your preferences and navigate to the **Library** settings
 
+![](../lab03/images/lab02s211.png)
 
-if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and you should see the following
+and
+
+update your **node_modules** path to point to the current project
+
+![](../lab03/images/lab02s212.png)
+
+Launch it again, if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and you should see the following
 
 ![](../lab03/images/lab02s215.png)
 
