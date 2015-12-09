@@ -4,9 +4,15 @@ First thing you should do is download the starter code (or the solution to the p
 
 Rename the extracted folder, (or copy your own version) to **donationweb-2.0**
 
-Open your **donationweb-2.0** web app (in WebStorm) and launch it.
+Open your **donationweb-2.0** web app (in WebStorm) 
+
+![](../lab03/images/lab02s213.png)
+
+and launch it.
 
 If you get any errors, you may have to reconfigure your project (as it's a copy) and fix the **node modules** path as follows:
+
+
 
 if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and you should see the following
 
