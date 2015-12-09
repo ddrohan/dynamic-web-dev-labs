@@ -40,13 +40,13 @@ and run the following commands
 
 
 ~~~
-npm install mongod
+npm install mongoose
 ~~~
 
 and
 
 ~~~
-npm install mongoose
+npm install mongodb
 ~~~
 
 ![](../lab03/images/lab02s217.png)
