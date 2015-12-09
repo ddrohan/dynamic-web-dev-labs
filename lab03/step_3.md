@@ -58,22 +58,7 @@ Next we register that model with the global mongoose object we imported using re
 
 **It is strongly recommended to run your web server at this point, to ensure everything is configured correctly and before we go ahead an modify our routes to interact with the database.**
 
-So as before, go ahead and fire up the server - but make sure your mongodb is running first.
+So as before, go ahead and fire up the server - but make sure your mongodb is running first, and you get the 'connected to database' message at the console.
 
-Did you get an Error?? (You probably did...)
 
-Did you install the **'mongoose'** and **'mongodb'** modules?? (You probably didn't!! )
 
-run these commands and then try again
-
-```
-npm install mongoose
-```
-and then
-
-```
-npm install mongodb
-```
-and if you check your running mongodb instance, you should see that a connection has been accepted, something like this
-
-![](../images/lab5.step3.1.jpg)
