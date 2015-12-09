@@ -104,9 +104,9 @@ GETing donation with id '566594b787282d5d60eedc23'
 
 ![](../lab02/images/lab02s25.png)
 
-requesting donation with id '566594b787282d5d60eedc**20**'
+requesting donation with id '566594b787282d5d60eedc**233**'
 ~~~html
-/donations/10000011
+/donations/566594b787282d5d60eedc233
 ~~~
 
 ![](../lab02/images/lab02s26.png)
