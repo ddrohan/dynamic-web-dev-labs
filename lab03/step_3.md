@@ -22,6 +22,15 @@ var mongoose = require('mongoose');
 ...
 
 mongoose.connect('mongodb://localhost:27017/donationsdb');
+
+var db = mongoose.connection;
+
+db.on('error', function (err) {
+    console.log('connection error', err);
+});
+db.once('open', function () {
+    console.log('connected to database');
+});
 ```
 
 (It's probably a good idea to remove our javascript list altogether at this point as we don't need it.)
