@@ -39,7 +39,7 @@ This will open a connection with the ***donationsdb*** database running on our M
 ---
 ## Creating a Schema with Mongoose
 
-In our **models/** directory edit **donations.js** and add the following code:
+In our **models/** directory edit **donations.js** and replace the current 'model' with the following code:
 
 ```javascript
 var mongoose = require('mongoose');
