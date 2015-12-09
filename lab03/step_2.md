@@ -8,11 +8,9 @@ Open your **donationweb-2.0** web app (in WebStorm) and launch it.
 
 If you get any errors, you may have to reconfigure your project (as it's a copy) and fix the **node modules** path as follows:
 
-if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and see the following
+if everything goes to plan you should be able to visit [http://localhost:3000](http://localhost:3000) and you should see the following
 
-![](../images/lab4.step2.1.png)
-
-Next Step!
+![](../lab03/images/lab02s215.png)
 
 
 ![](../lab03/images/lab02s201.png)
