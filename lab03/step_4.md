@@ -50,42 +50,28 @@ GETing all the donations in our mongodb database
 ![](../lab03/images/lab03s402.png)
 
 ---
-## Creating Our Second Route - 'findOne'
+## Modifying Our Second Route - 'findOne'
 
-Our first route returned all the donations to a client, but what if the client only want's to get at a single donation - that's what our next route 'findOne' will do.
-
-
-Here's the function (***findOne***) to be added to our **routes/donations.js** file
+Our first route returned all the donations to a client, but what if the client only want's to get at a single donation from the database - that's what our next route 'findOne' does, so we need to refactor our current implementation to make use of mongoose.
 
 ```javascript
 router.findOne = function(req, res) {
 
-    var donation = getByValue(donations,req.params.id);
-
-    if(donation != null)
-        res.json(donation);
-    else
-        res.json({ message: 'Donation NOT Found!'});
+    // Use the Donation model to find a single donation
+    Donation.find({ "_id" : req.params.id },function(err, donation) {
+        if (err)
+            res.json({ message: 'Donation NOT Found!', errmsg : err } );
+        else
+            res.json(donation);
+    });
 }
 ```
-and our route for **app.js**
 
-```javascript
-app.get('/donations/:id', donations.findOne);
-```
-You've probably noticed (or maybe you didn't!) that there's a 'helper' function (***getByValue***) we need to write for our 'findOne' function to work properly.
+Notice the use of the **req** parameter to pass in the ***id*** of the donation we require.
 
 
 
-Here's the function stub, so see can you work out how to find the donation object in ***arr*** with ***id*** id and return it.
 
-```javascript
-function getByValue(arr, id) {
-
-// put your code solution here
-    
-}
-```
 ---
 ### Testing Our 'findOne' Route
 
