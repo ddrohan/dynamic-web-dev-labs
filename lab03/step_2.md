@@ -34,6 +34,23 @@ Launch it again, if everything goes to plan you should be able to visit [http://
 
 The next thing to do is to add the **mongod** and **mongoose** module dependencies to our project. Launch the terminal window 
 
+![](../lab03/images/lab02s216.png)
+
+and run the following commands
+
+
+~~~
+npm install mongod
+~~~
+
+and
+
+~~~
+npm install mongoose
+~~~
+
+![](../lab03/images/lab02s217.png)
+
 
 ![](../lab03/images/lab02s201.png)
 
