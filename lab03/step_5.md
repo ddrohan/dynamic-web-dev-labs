@@ -1,23 +1,67 @@
-# Step 5 - Modifying our 'Routes', Part 2 ( 'deleteDonation' & 'incrementVotes' )
+# Step 5 - Modifying our 'Routes', Part 2 ( 'addDonation', 'deleteDonation' & 'incrementVotes' )
 
-The first thing we need to do is add a new function to allow us to find a single donation, so add the following to your **routes/donations.js**, replacing the **getByValue** function
+## Modifying Our Third Route - 'Add a Donation'
+
+Again, edit your **routes/donations.js** file and navigate to your existing 'addDonation' function.
+
+And replace it with the following :
 
 ```javascript
-router.findById = function(req, res) {
+router.addDonation = function(req, res) {
 
-    var id = req.params.id;
+    var donation = new Donation();
     
-    console.log('Getting Donation for Id: ' + id);
-    
-    Donation.findById(id, function(err,donation) {
-        if (err)
-            res.send(err);
+    donation.paymenttype = req.body.paymenttype;
+    donation.amount = req.body.amount;
 
-            res.send(donation);
-        });
+    console.log('Adding donation: ' + JSON.stringify(donation));
+    
+    // Save the donation and check for errors
+  donation.save(function(err) {
+    if (err)
+      res.send(err);
+
+      res.json({ message: 'Donation Added!', data: donation });
+  });
 }
 ```
-We're using Mongoose's own 'findById', but this will make things easier for us later on.
+There's a bit more going on here, so make sure you understand the general jist of how this works. (But I'll explain in the labs anyway)
+
+You may need to restart your server but if everything goes to plan, you should now be able to store and retrieve 'donations' from your mongodb database.
+
+
+Let's test our **addDonation** using WebStorms REST Client (like before)
+
+---
+
+### Testing Our 'Add' Route
+
+
+###The Request
+
+![](../lab02/images/lab02s27.png)
+
+We need to fill in the **Request Body** for our POST
+
+![](../lab02/images/lab02s28.png)
+
+POSTing donation data in JSON format
+
+~~~json
+{"id":0,"paymenttype":"Direct","amount":500,"upvotes":0}
+~~~
+
+![](../lab02/images/lab02s29.png)
+
+
+###The Response
+
+![](../lab02/images/lab02s30.png)
+
+GET all donations again to confirm
+
+![](../lab02/images/lab02s31.png)
+
 
 ---
 ## Modifying Our Third Route - 'Delete a Donation'
