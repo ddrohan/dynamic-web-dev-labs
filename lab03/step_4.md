@@ -65,10 +65,9 @@ There's a bit more going on here, so make sure you understand the general jist o
 You may need to restart your server but if everything goes to plan, you should now be able to store and retrieve 'donations' from your mongodb database.
 
 
----
-
-
 Let's test our **addDonation** using WebStorms REST Client (like before)
+
+---
 
 ### Testing Our 'Add' Route
 
