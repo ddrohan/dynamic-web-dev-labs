@@ -91,11 +91,11 @@ Notice how we use the Mongoose **'findByIdAndRemove'** function to retrieve and 
 
 ###The Request
 
-![](../lab02/images/lab02s27.png)
+![](../lab03/images/lab02s504.png)
 
 We need to fill in the **Request Body** for our POST
 
-![](../lab02/images/lab02s28.png)
+![](../lab03/images/lab02s505.png)
 
 POSTing donation data in JSON format
 
@@ -103,7 +103,7 @@ POSTing donation data in JSON format
 { "paymenttype":"Direct","amount":500 }
 ~~~
 
-![](../lab03/images/lab02s501.png)
+![](../lab03/images/lab02s506.png)
 
 
 ###The Response
