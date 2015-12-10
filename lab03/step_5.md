@@ -73,17 +73,12 @@ Now, replace it with the following :
 ```javascript
 router.deleteDonation = function(req, res) {
 
-    var donation = new Donation();
-
-    var id = req.params.id;
-    console.log('Deleting donation: ' + id);
-    
-    Donation.findByIdAndRemove(id, function(err) {
+    Donation.findByIdAndRemove(req.params.id, function(err) {
         if (err)
             res.send(err);
-
-        router.findAll(req,res);
-  });
+        else
+            res.json({ message: 'Donation Deleted!'});
+    });
 }
 ```
 
