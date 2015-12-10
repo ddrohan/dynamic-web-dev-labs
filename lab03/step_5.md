@@ -56,11 +56,11 @@ POSTing donation data in JSON format
 
 ###The Response
 
-![](../lab02/images/lab02s30.png)
+![](../lab02/images/lab02s502.png)
 
 GET all donations again to confirm
 
-![](../lab02/images/lab02s31.png)
+![](../lab02/images/lab02s503.png)
 
 
 ---
