@@ -64,7 +64,7 @@ GET all donations again to confirm
 
 
 ---
-## Modifying Our Third Route - 'Delete a Donation'
+## Modifying Our Fourth Route - 'Delete a Donation'
 
 Edit your **routes/donations.js** file and navigate to your existing 'deleteDonation' function.
 
@@ -108,7 +108,7 @@ GET all donations again to confirm
 
 
 ---
-## Modifying Our Fourth Route - 'Increment Votes'
+## Modifying Our Fifth (and final) Route - 'Increment Votes'
 
 Again, edit your **routes/donations.js** file and navigate to your existing 'incrementVotes' function.
 
