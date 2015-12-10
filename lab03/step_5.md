@@ -88,31 +88,23 @@ Notice how we use the Mongoose **'findByIdAndRemove'** function to retrieve and 
 
 ### Testing Our 'Delete' Route
 
+DELETEing donation with id '566594b787282d5d60eedc23'
+~~~html
+/donations/566594b787282d5d60eedc23
+~~~
 
 ###The Request
 
 ![](../lab03/images/lab02s504.png)
 
-We need to fill in the **Request Body** for our POST
-
-![](../lab03/images/lab02s505.png)
-
-POSTing donation data in JSON format
-
-~~~json
-{ "paymenttype":"Direct","amount":500 }
-~~~
-
-![](../lab03/images/lab02s506.png)
-
 
 ###The Response
 
-![](../lab03/images/lab02s502.png)
+![](../lab03/images/lab02s505.png)
 
 GET all donations again to confirm
 
-![](../lab03/images/lab02s503.png)
+![](../lab03/images/lab02s506.png)
 
 
 ---
