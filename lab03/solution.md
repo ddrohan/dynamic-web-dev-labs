@@ -1,3 +1,3 @@
-# Solution - Lab 5
+# Solution - Lab 3
 
 You can find the solution to this lab '**[here](../zips/checkzipsfolder.zip)**.
