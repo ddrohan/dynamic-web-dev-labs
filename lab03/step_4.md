@@ -72,8 +72,6 @@ Notice the use of the **req** parameter to pass in the ***id*** of the donation 
 ---
 ### Testing Our 'findOne' Route
 
-Now that we have another GET 'service' in our RESTful APi, we should really test it via our REST Client.
-
 ###The Request
 
 GETing donation with id '566594b787282d5d60eedc23'
