@@ -116,27 +116,22 @@ And replace it with the following :
 
 ```javascript
 router.incrementUpvotes = function(req, res) {
-
-    var id = req.params.id;
     
-    console.log('Incrementing votes for Id: ' + id);
-    
-    Donation.findById(id, function(err,donation) {
+    Donation.findById(req.params.id, function(err,donation) {
         if (err)
             res.send(err);
-
-        donation.upvotes += 1;
-        donation.save(function(err) {
-            if (err)
-                res.send(err);
-            console.log('Votes Incremented: ' + id);
-            //res.json({ message: 'Donation Added!', data: donation });
-            router.findAll(req,res); 
-            }); 
-
-  });
+        else {
+            donation.upvotes += 1;
+            donation.save(function (err) {
+                if (err)
+                    res.send(err);
+                else
+                res.json({ message: 'Donation Upvoted!', data: donation });
+            });
+        }
+    });
 }
 ```
 Like last time, there's a bit more going on here, so make sure you understand the general jist of how this works. (But I'll explain in the labs if necessary?)
 
-You may need to restart your server but if everything goes to plan, you ***might*** now be able to delete and 'upvote' donations from your mongodb database.
+You may need to restart your server but if everything goes to plan, you might now be able to delete and 'upvote' donations from your mongodb database.
