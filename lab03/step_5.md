@@ -90,6 +90,37 @@ router.deleteDonation = function(req, res) {
 Notice how we use the Mongoose 'findByIdAndRemove' function to retrieve and delete the object from the 'Model'.
 
 ---
+
+### Testing Our 'Delete' Route
+
+
+###The Request
+
+![](../lab02/images/lab02s27.png)
+
+We need to fill in the **Request Body** for our POST
+
+![](../lab02/images/lab02s28.png)
+
+POSTing donation data in JSON format
+
+~~~json
+{ "paymenttype":"Direct","amount":500 }
+~~~
+
+![](../lab03/images/lab02s501.png)
+
+
+###The Response
+
+![](../lab03/images/lab02s502.png)
+
+GET all donations again to confirm
+
+![](../lab03/images/lab02s503.png)
+
+
+---
 ## Modifying Our Fourth Route - 'Increment Votes'
 
 Again, edit your **routes/donations.js** file and navigate to your existing 'incrementVotes' function.
