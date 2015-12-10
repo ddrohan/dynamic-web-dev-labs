@@ -161,7 +161,7 @@ AFTER
 
 ![](../lab03/images/lab02s508.png)
 
-GET all donations again to confirm
+GET all donations again to confirm the update
 
 ![](../lab03/images/lab02s509.png)
 
