@@ -147,16 +147,21 @@ PUTing (or updating) donation with id '566593d087282d5d60eedc22'
 
 ###The Request
 
-![](../lab03/images/lab02s504.png)
+
+![](../lab03/images/lab02s507.png)
 
 
 ###The Response
 
-![](../lab03/images/lab02s505.png)
+BEFORE
+
+![](../lab03/images/lab02s506.png)
+
+AFTER
 
 GET all donations again to confirm
 
-![](../lab03/images/lab02s506.png)
+![](../lab03/images/lab02s508.png)
 
 
 ---
