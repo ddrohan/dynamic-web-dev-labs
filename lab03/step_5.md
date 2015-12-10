@@ -159,9 +159,11 @@ BEFORE
 
 AFTER
 
+![](../lab03/images/lab02s508.png)
+
 GET all donations again to confirm
 
-![](../lab03/images/lab02s508.png)
+![](../lab03/images/lab02s509.png)
 
 
 ---
