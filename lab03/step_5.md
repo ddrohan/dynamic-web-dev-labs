@@ -135,3 +135,28 @@ router.incrementUpvotes = function(req, res) {
 Like last time, there's a bit more going on here, so make sure you understand the general jist of how this works. (But I'll explain in the labs if necessary?)
 
 You may need to restart your server but if everything goes to plan, you might now be able to delete and 'upvote' donations from your mongodb database.
+
+---
+
+### Testing Our 'UpVote' Route
+
+PUTing (or updating) donation with id '566593d087282d5d60eedc22'
+~~~html
+/donations/566593d087282d5d60eedc22/votes
+~~~
+
+###The Request
+
+![](../lab03/images/lab02s504.png)
+
+
+###The Response
+
+![](../lab03/images/lab02s505.png)
+
+GET all donations again to confirm
+
+![](../lab03/images/lab02s506.png)
+
+
+---
