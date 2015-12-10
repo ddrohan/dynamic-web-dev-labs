@@ -82,7 +82,7 @@ router.deleteDonation = function(req, res) {
 }
 ```
 
-Notice how we use the Mongoose 'findByIdAndRemove' function to retrieve and delete the object from the 'Model'.
+Notice how we use the Mongoose **'findByIdAndRemove'** function to retrieve and delete the object from the 'Model'.
 
 ---
 
