@@ -51,7 +51,7 @@ POSTing donation data in JSON format
 { "paymenttype":"Direct","amount":500 }
 ~~~
 
-![](../lab02/images/lab02s29.png)
+![](../lab02/images/lab02s501.png)
 
 
 ###The Response
