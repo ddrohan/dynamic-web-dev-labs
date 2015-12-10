@@ -48,7 +48,7 @@ We need to fill in the **Request Body** for our POST
 POSTing donation data in JSON format
 
 ~~~json
-{"id":0,"paymenttype":"Direct","amount":500,"upvotes":0}
+{ "paymenttype":"Direct","amount":500 }
 ~~~
 
 ![](../lab02/images/lab02s29.png)
