@@ -27,7 +27,7 @@
        * [Step 4 - Modifying our 'Routes', Part 1 ( 'findAll' & 'findOne' )](lab03/step_4.md)
        * [Step 5 - Modifying our 'Routes', Part 2 ( 'addDonation', 'deleteDonation' & 'incrementVotes' )](lab03/step_5.md)
        * [Solution](lab03/solution.md)
-   * [Lab 4 - DonationWeb 3.0 (Angular App)](lab04/lab_4.md)
+   * [Lab 4 - DonationWeb 3.0 (Angular Client App)](lab04/lab_4.md)
        * [Step 1 - Objectives](lab04/step_1.md)
        * [Step 2 - Setup](lab04/step_2a.md)
        * [Step 3 - Implement 'About Us' Page](lab04/step_3a.md)
