@@ -1,5 +1,5 @@
 
-# Solution - Lab 1
+# Solution
 
-You can find the solution to this lab **[here](../zips/donationweb-1.0.solution.zip)**.
+You can find the solution to this lab **[here](../zips/donationweb-3.0.solution.zip)**.
 
