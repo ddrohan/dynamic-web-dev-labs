@@ -25,8 +25,6 @@ We'll keep this page fairly simple for the moment so create a new file (about.ej
 
 like so,
 
-
-
 ![](../images/lab04.s301.png)
 
 and then
