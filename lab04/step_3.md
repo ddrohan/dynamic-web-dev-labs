@@ -21,10 +21,15 @@ Save the file and a quick reboot of the app should display the expected result.
 
 ##Adding 'about.ejs'
 
-We'll keep this page fairly simple for the moment so create a new file (about.ejs) within the **'pages'** directory/folder of your **'public'** webapp folder and place the following html inside it.
+We'll keep this page fairly simple for the moment so create a new file (about.ejs) within the **'pages'** directory/folder of your **'public'** webapp folder and place the following html inside it, 
+
+like so,
+
 
 
 ![](../images/lab04.s301.png)
+
+and then
 
 ![](../images/lab04.s302.png)
 
