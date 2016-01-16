@@ -12,8 +12,6 @@ So, once you've extracted the archive (and opened it in WebStorm) you should hav
 Pay particular attention to the additional files in the 'public' folder and we'll have a closer look at the individual files as we work through the lab, but first (and to see what our Angular app currently does) you should launch your WebStorm project and view the 'new look' Angular home page in a browser.
 
 
-
-
 ## Navigation Bar
 
 You'll notice that the navigation bar has only 3 links, and 2 buttons, like so
