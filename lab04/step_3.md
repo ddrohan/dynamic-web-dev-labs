@@ -9,19 +9,25 @@ This step involves adding another navigation link to our navigation bar to take 
 
 ## Updating the Navigation Bar
 
-Adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
+Adding the link is quite straightforward so open up your **index.ejs** page in your 'views' folder and add the following html code to the list of links
 
 ```html
 <li><a href="#about"><i class="fa fa-info"></i> About</a></li>
 
 ```
-Save the file and a quick refresh of the page in your browser should display the expected result.
+Save the file and a quick reboot of the app should display the expected result.
 
 ---
 
-##Adding 'about.html'
+##Adding 'about.ejs'
 
-We'll keep this page fairly simple for the moment so create a new file (about.html) within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
+We'll keep this page fairly simple for the moment so create a new file (about.ejs) within the **'pages'** directory/folder of your **'public'** webapp folder and place the following html inside it.
+
+
+![](../images/lab04.s301.png)
+
+![](../images/lab04.s302.png)
+
 
 ```html
 <div class="jumbotron text-center">
