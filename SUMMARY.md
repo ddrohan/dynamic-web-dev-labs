@@ -29,7 +29,7 @@
        * [Solution](lab03/solution.md)
    * [Lab 4 - DonationWeb 3.0 (Angular Client App)](lab04/lab_4.md)
        * [Step 1 - Objectives](lab04/step_1.md)
-       * [Step 2 - Setup](lab04/step_2a.md)
+       * [Step 2 - Setup](lab04/step_2.md)
        * [Step 3 - Implement 'About Us' Page](lab04/step_3a.md)
        * [Step 4 - Implement 'Contact Us' Page](lab04/step_4a.md)
        * [Solution](lab04/solutiona.md)
