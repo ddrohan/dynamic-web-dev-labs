@@ -1,13 +1,13 @@
 
 # Step 2 - Setup
 
-First thing you should do is download the starter code **[here](../zips/donationweb-2.0.Starter.zip)** (or continue on with your previous solution and add in the necessary files!) and then extract it somewhere you can access it at the command line easily. I'd recommend creating a single parent folder for all your web app projects as we'll need to access these folders quite regularly in later labs. 
+First thing you should do is download the starter code **[here](../zips/donationweb-3.0.Starter.zip)** (or continue on with your previous solution and add in the necessary files yourself!) and then extract it somewhere you can access it at the command line easily. I'd recommend creating this project in the single parent folder you have already been using for all your web app projects as we'll need to access these folders quite regularly. 
 
-It's not vital, but you should probably rename the extracted folder, and remove the 'starter' postfix.
+It's not vital, but you should probably rename the extracted folder, and remove the 'Starter' postfix.
 
-So, once you've extracted the archive (and dragged it into Sublime Text) you should have something like this.
+So, once you've extracted the archive (and opened it in WebStorm) you should have something like this.
 
-![](../images/donationweb-1.0.start.png)
+![](../images/donationwebs-3.0.start.png)
 
 We'll have a closer look at the individual files as we work through the lab, but first (and to see what our Angular app currently does) navigate to your **donationweb-1.0** folder and load the **index.html** page in a browser.
 
