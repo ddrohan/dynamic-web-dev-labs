@@ -82,6 +82,6 @@ and once you've added the route
 
 ![](../images/lab04.s304.png)
 
-Once again, make sure you save your file before you refresh in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
+Once again, make sure you save your file before you launch it in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
 
-You're probably not seeing the proper message - can you work out why and how to fix it??
+But you're probably not seeing the proper message - can you work out why and how to fix it??
