@@ -34,9 +34,9 @@ and then
 
 ```html
 <div class="jumbotron text-center">
-	<h1>About Us</h1>
-	
-	<p>{{ message }}</p>
+    <h1>About Us</h1>
+
+    <h2>{{ message }}</h2>
 </div>
 ```
 ---
