@@ -27,6 +27,7 @@ Save the file and a quick reboot of the page in your browser should display the 
 ##Adding 'contact.ejs'
 
 We'll again keep this page fairly simple for the moment so follow the same steps as you did for the **about.ejs**.
+
 ---
 
 ##Wiring it all up - the 'Contact Us' Controller and Routing
