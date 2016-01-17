@@ -49,28 +49,28 @@ This is where most of the work needs to be done in-so-far as we need to
 * add a new ***route*** to ensure the link is correctly associated with the **controller**
 
 ###Adding the Controller
-First, open up your **app.js** file and navigate to where the other controllers have been implemented (around line 36 if you haven't added anything)
+First, navigate to your **public/javascripts/controllers** folder and add a new file **aboutcontroller.js**
 
-![](../images/lab1.step3.1.png)
-
-Add the following code **AFTER** the *'donationsController'* controller (line 53+) - feel free to change the message!
+Add the following code to the file - feel free to change the message!
 
 ```javascript
+var app = angular.module('DonationWebApp');
+
 app.controller('aboutController', function($scope) {
     $scope.message = 'Look! I am an about page.';
   });
 ```
 ###Adding the Routing
-Finally, within your **app.js** file, navigate to where the other routes have been implemented (around line 12 if you haven't added anything before it)
+Finally, within your **angularApp.js** file, navigate to where the other routes have been implemented (around line 4 if you haven't added anything before it)
 
 ![](../images/lab1.step3.2.png)
 
-Add the following code **AFTER** line 31 **AND BEFORE** line 32 (so make some space!)
+Add the following code **AFTER** line 10 **AND BEFORE** line 12 (so make some space!)
 
 ```javascript
 // route for the about page
             .when('/about', {
-                templateUrl : 'pages/about.html',
+                templateUrl : 'pages/about.ejs',
                 controller  : 'aboutController'
             })
 ```
