@@ -14,13 +14,13 @@ But here's what you missing from the previous step, if your message didn't show 
 
 ## Updating the Navigation Bar
 
-Once again, adding the link is quite straightforward so open up your **index.html** page and add the following html code to the list of links
+Once again, adding the link is quite straightforward so open up your **index.ejs** page and add the following html code to the list of links
 
 ```html
 <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
 
 ```
-Save the file and a quick refresh of the page in your browser should display the expected result.
+Save the file and a quick reboot of the page in your browser should display the expected result.
 
 ---
 
