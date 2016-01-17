@@ -85,3 +85,5 @@ and once you've added the route
 Once again, make sure you save your file before you launch it in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
 
 But you're probably not seeing the proper message - can you work out why and how to fix it??
+
+(Answer is next but try and solve it first, so as a hint check your index.ejs and the scripts tags :) )
