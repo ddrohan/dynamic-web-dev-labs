@@ -9,7 +9,7 @@ So, once you've extracted the archive (and opened it in WebStorm) you should hav
 
 ![](../images/donationwebs-3.0.start.png)
 
-Pay particular attention to the additional files in the 'public' folder and we'll have a closer look at the individual files as we work through the lab, but first (and to see what our Angular app currently does) you should launch your WebStorm project and view the 'new look' Angular home page in a browser.
+Pay particular attention to the additional files in the 'public' folder and we'll have a closer look at the individual files as we work through the lab, but first (and to see what our Angular client currently does) you should launch your WebStorm project and view the 'new look' Angular home page in a browser.
 
 
 ## Navigation Bar
