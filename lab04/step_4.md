@@ -4,6 +4,12 @@ This step (which is virtually identical to the previous step) involves adding an
 
 ![](../images/navbar.lab1.v3.png)
 
+But here's what you missing from the previous step, if your message didn't show - you need to add the following to your **index.ejs**
+
+
+```html
+<script src="/javascripts/controllers/aboutcontroller.js"></script>
+```
 ---
 
 ## Updating the Navigation Bar
