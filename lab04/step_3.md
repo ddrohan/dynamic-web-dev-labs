@@ -56,9 +56,11 @@ Add the following code to the file - feel free to change the message!
 ```javascript
 var app = angular.module('DonationWebApp');
 
-app.controller('aboutController', function($scope) {
-    $scope.message = 'Look! I am an about page.';
-  });
+app.controller('aboutController', ['$scope', function($scope) {
+    // create a message to display in our view
+    $scope.message = 'Look, I\'m an About Page!';
+    }
+]);
 ```
 ###Adding the Routing
 Finally, within your **angularApp.js** file, navigate to where the other routes have been implemented (around line 4 if you haven't added anything before it)
@@ -76,3 +78,5 @@ Add the following code **AFTER** line 10 **AND BEFORE** line 12 (so make some sp
 ```
 
 Once again, make sure you save your file before you refresh in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
+
+You're probably not seeing the proper message - can you work out why and how to fix it??
