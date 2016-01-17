@@ -65,7 +65,9 @@ app.controller('aboutController', ['$scope', function($scope) {
 ###Adding the Routing
 Finally, within your **angularApp.js** file, navigate to where the other routes have been implemented (around line 4 if you haven't added anything before it)
 
-![](../images/lab1.step3.2.png)
+like so,
+
+![](../images/lab04.s303.png)
 
 Add the following code **AFTER** line 10 **AND BEFORE** line 12 (so make some space!)
 
@@ -76,6 +78,9 @@ Add the following code **AFTER** line 10 **AND BEFORE** line 12 (so make some sp
                 controller  : 'aboutController'
             })
 ```
+and once you've added the route
+
+![](../images/lab04.s304.png)
 
 Once again, make sure you save your file before you refresh in the browser. If all goes to plan you should now be able to navigate to the **'About Us'** page and see your message displayed.
 
