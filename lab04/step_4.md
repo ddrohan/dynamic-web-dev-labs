@@ -24,30 +24,22 @@ Save the file and a quick reboot of the page in your browser should display the 
 
 ---
 
-##Adding 'contact.html'
+##Adding 'contact.ejs'
 
-We'll again keep this page fairly simple for the moment so create a new file (contact.html) within the **'pages'** directory/folder of your webapp folder and place the following html inside it.
-
-```html
-<div class="jumbotron text-center">
-	<h1>Contact Us</h1>
-	
-	<p>{{ message }}</p>
-</div>
-```
+We'll again keep this page fairly simple for the moment so follow the same steps as you did for the **about.ejs**.
 ---
 
 ##Wiring it all up - the 'Contact Us' Controller and Routing
 
-This is more or less the same as the previous step as we need to  
+This is more or less the same as the previous step as well as we need to  
 
 * create a new ***controller*** object to manage the page and
 * add a new ***route*** to ensure the link is correctly associated with the **controller**
 
 So try and have a go at adding the controller ('contactController') and the routes without referring to the previous step. 
 
-Once again, make sure you save your file before you refresh in the browser. If all goes to plan you should now be able to navigate to the **'Contact Us'** page and see your message displayed.
+Once again, make sure you save your file before you reboot and view in the browser. If all goes to plan you should now be able to navigate to the **'Contact Us'** page and see your message displayed.
 
-##Well done - you've just built your 1st Angular Web App!
+##Well done - you've just built your 1st Angular Client Web App!
 
 
