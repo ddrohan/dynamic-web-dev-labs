@@ -40,6 +40,8 @@ So try and have a go at adding the controller ('contactController') and the rout
 
 Once again, make sure you save your file before you reboot and view in the browser. If all goes to plan you should now be able to navigate to the **'Contact Us'** page and see your message displayed.
 
+**If you're totally stuck you can refer to the lecture material on Angular for a look at the solution we covered in class**.
+
 ##Well done - you've just built your 1st Angular Client Web App!
 
 
