@@ -8,4 +8,4 @@ We will be covering the MEAN Software Stack which essentially covers Mongo, Expr
 
 The labs will begin with a simple Node Web Server built using Express and progress on to a fully fledged MEAN web app, with an Angular Front End. 
 
-You can check out the completed web app connected to a mongodb database hosted on [mongolab](http://www.mongolab.com) deployed to [heroku](http://www.heroku.com) here [http://donationweb.herokuapp.com](http://donationweb.herokuapp.com).
+You can check out the completed web app connected to a mongodb database hosted on [mongolab](http://www.mongolab.com) deployed to [heroku](http://www.heroku.com) here [http://donationweb.herokuapp.com](http://donationweb-4-0.herokuapp.com).
