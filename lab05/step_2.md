@@ -1,6 +1,6 @@
 # Step 2 - Setup
 
-First thing you should do is download the starter code (or the solution to the previous lab) **[here](../zips/donationweb-1.0.solution.zip)** and then extract it to your single parent folder for all your web app projects you created for Lab 1. 
+First thing you should do is download the starter code (or the solution to the previous lab) **[here](../zips/donationweb-3.0.solution.zip)** and then extract it to your single parent folder for all your web app projects you created for Lab 1. 
 
 It's not vital, but you should probably rename the extracted folder, and remove the 'solution' postfix.
 
