@@ -12,11 +12,10 @@ We want to initially display the records (just so we know it works) on our page 
 
 ## 'Requesting' our List of Donations
 
-Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
+Have a quick look again at your **'donationsController'**, just to familiarise yourself with the **$scope** object you'll be working with.
 
-![](../images/lab2.step3.1.png)
 
-We need to somehow allow our 'donationsController' access to this list so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so replace your existing controller with the following
+Now, we need to somehow allow our 'donationsController' make requests so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so replace your existing controller with the following
 
 ```javascript
 
