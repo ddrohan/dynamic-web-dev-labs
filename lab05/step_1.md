@@ -1,7 +1,7 @@
 
 # Objectives
 
-In this Lab, you will be required to build the next version of our Donation Case Study Web App, called **Donation 4.0**.  We will build on the previous lab, so you can either use your own version of **Donation 3.0** or download the starter code **[here](../zips/donationweb-3.0.solution.zip)**. In this version we will be updating our **controllers** and our **factory** to introduce some functionality into our Web App.  
+In this Lab, you will be required to build the next version of our Donation Case Study Web App, called **Donation 4.0**.  We will build on the previous lab, so you can either use your own version of **Donation 3.0** or download the starter code **[here](../zips/donationweb-3.0.zip)**. In this version we will be updating our **controllers** and our **factory** to introduce some functionality into our Web App.  
 
 On completion of this lab you'll be able to
 
