@@ -10,7 +10,7 @@ We want to initially display the records (just so we know it works) on our page 
 
 ---
 
-## Setting Up our 'List of Donations'
+## 'Requesting' our List of Donations
 
 Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
 
