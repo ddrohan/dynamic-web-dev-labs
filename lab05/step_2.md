@@ -15,7 +15,8 @@ Our Nav bar now has 5 links, and 2 buttons, like so
 
 So the rest of the lab involves adding functionality to allow the user to
 
-* **Donate** and
-* **View All Donations**
+* **Donate** 
+* **View All Donations** and
+* **Delete a Donation **
  
 
