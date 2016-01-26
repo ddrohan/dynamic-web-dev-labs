@@ -6,7 +6,7 @@ So the first feature we'll implement is our **'View All Donations'** and list ou
 
 ![](../images/donationwebapp1.jpg)
 
-We want to initially display the records (just so we know it works) on our page in the format above and also be able to delete the record (and eventually edit it). To achieve this we need to refaactor our **'donationsController'** and ***request*** the list from the server - so let's do that.
+We want to initially display the records (just so we know it works) on our page in the format above and also be able to delete the record (and eventually edit it). To achieve this we need to refactor our **'donationsController'** and ***request*** the list from the server - so let's do that.
 
 ---
 
