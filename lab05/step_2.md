@@ -4,11 +4,7 @@ First thing you should do is download the starter code (or the solution to the p
 
 It's not vital, but you should probably rename the extracted folder for your final version of DonationWeb.
 
-So, once you've extracted the archive (and dragged it into Sublime Text) you should have something like this.
-
-![](../images/donationweb-2.0.start.png)
-
-Navigate to your **donationweb-2.0** folder and load the **index.html** page in a browser to confirm everything is as it should be to begin with.
+Before beginning any refactoring it's probably worth running the Web App, just to confirm it launches correctly and we see the expected navigation bar (as below).
 
 
 ## Navigation Bar
