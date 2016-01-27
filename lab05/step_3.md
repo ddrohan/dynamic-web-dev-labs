@@ -15,7 +15,10 @@ We want to initially display the records (just so we know it works) on our page 
 Have a quick look again at your **'donationsController'**, just to familiarise yourself with the **$scope** object you'll be working with.
 
 
-Now, we need to somehow allow our 'donationsController' make requests so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so replace your existing controller with the following
+Now, we need to somehow allow our 'donationsController' make requests so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so to begin with, add the **$http** dependency to your existing controller like so
+
+![](../images/lab5.step3.1.png)
+
 
 ```javascript
 
