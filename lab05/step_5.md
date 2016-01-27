@@ -8,7 +8,7 @@ And secondly, have a look again at what our donations page looks like
 
 ![](../images/donationwebapp1.jpg)
 
-What we need to do here is write 2 functions, one called **deleteDonation** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to our **donationsController**.
+What we need to do here is write 2 functions, one called **delete** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to our **donationsController**.
 
 ---
 
