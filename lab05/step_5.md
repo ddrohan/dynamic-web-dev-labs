@@ -16,7 +16,7 @@ What we need to do here is write 2 functions, one called **deleteDonation** to *
 
 Firstly, have a look at our existing donations.ejs page, and specifically the **ng-click** directives associated with the delete button and the 'thumbs Up' glyphicon.
 
-![](../images/lab2.step5.1.png)
+![](../images/lab05.step3.6.png)
 
 These are the functions you need to write within the donations controller.
 
