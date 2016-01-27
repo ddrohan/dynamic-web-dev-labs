@@ -37,7 +37,7 @@ Once you've completed the 'delete' feature, save the file and test it out by add
 
 ## Updating our *donationsController* - the 'incrementUpvotes' Callback
 
-The last feature to implement is to give a particular donation the *thumbs Up*, by implementing the **incrementUpvotes** function in our **factory** and our **controller**.
+The last feature to implement is to give a particular donation the *thumbs Up*, by implementing the **incrementUpvotes** function in our **controller**.
 
 Here's the function for our factory
 
