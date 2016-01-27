@@ -4,7 +4,7 @@ So now that we can display a list of the donations initially set up, the second 
 
 ![](../images/donationwebapp2.jpg)
 
-There's a bit more work involved to get this feature implemented, so the first thing we'll do is write a function to allow us to *add* a donation to our list (in the factory).
+There's a bit more work involved to get this feature implemented, so the first thing we'll do is write a function to allow us to *add* a donation to our list (stored on the server).
 
 ---
 
