@@ -23,11 +23,12 @@ These are the functions you need to write within the donations controller.
 To help you along, you need to add the following function to the controller - which you need to complete.
 
 ```javascript
-   $scope.delete = function(donation){
-      if (confirm("Are you sure you want to delete?")) {
-          //Call the factory delete function here
-         }       
-      };
+  $scope.delete = function(id) {
+      if (confirm("Are you sure you want to delete this Donation?")) {
+              console.log('Deleting id : ' + id);
+        //Write your 'delete' request here
+          }
+    };
 ```
 
 Once you've completed the 'delete' feature, save the file and test it out by adding, and then deleting a few donations.
