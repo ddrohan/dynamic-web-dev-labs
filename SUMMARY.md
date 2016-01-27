@@ -38,7 +38,7 @@
        * [Step 2 - Setup](lab05/step_2.md)
        * [Step 3 - 'View All Donations'](lab05/step_3.md)
        * [Step 4 - 'Donate'](lab05/step_4.md)
-       * [Step 5 - 'Delete' and 'UpVotes'](lab05/step_5a.md)
+       * [Step 5 - 'Delete' and 'UpVotes'](lab05/step_5.md)
        * [Solution](lab05/solutiona.md)
 * [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
    * [Step 01 - Requirements](heroku/step01.md)
