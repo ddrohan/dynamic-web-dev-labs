@@ -33,13 +33,17 @@ function findAll() {
             });
     };
 ```
-Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.html).
+Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.ejs).
+
+Your completed **donationsController** should now look something like this
+
+![](../images/lab05.step3.2.png)
 
 ---
 
 ## Displaying our 'List of Donations'
 
-Everything we need to display our list of donations is already implemented in our **'donations.html'** page (as per the solution) so test it out, but you should investigate how we actually achieve the rendering of the list and familarise yourself with the different ***angular directives*** used in the solution, below is an extract from the page but it's worth having a look at the complete html at some stage.
+Everything we need to display our list of donations is already implemented in our **'donations.ejs'** page (as per the solution) so test it out, but you should investigate how we actually achieve the rendering of the list and familarise yourself with the different ***angular directives*** used in the solution, below is an extract from the page but it's worth having a look at the complete html at some stage.
 
 ![](../images/lab2.step3.2.png)
 
@@ -51,3 +55,12 @@ You should pay particular attention to the following directives
 
 and how we display the individual properties of each donation via the current ***scope***.
 
+And as we're using 
+
+```javascript
+                console.log(data);
+```
+
+As a final test it's worth opening the Developer Console (will be different depending on which browser you're using) and view 'console' output for example....
+
+![](../images/lab05.step3.3.png)
