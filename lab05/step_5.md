@@ -14,7 +14,7 @@ What we need to do here is write 2 functions, one called **deleteDonation** to *
 
 ## Updating our *donationsController* - the 'deleteDonation' Callback
 
-Firstly, have a look at our existing donations.html page, and specifically the **ng-click** directives associated with the delete button and the 'thumbs Up' glyphicon.
+Firstly, have a look at our existing donations.ejs page, and specifically the **ng-click** directives associated with the delete button and the 'thumbs Up' glyphicon.
 
 ![](../images/lab2.step5.1.png)
 
