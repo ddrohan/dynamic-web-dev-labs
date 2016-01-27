@@ -50,11 +50,9 @@ This is the information you need to write the callback function within the contr
 
 Once you've completed the 'add' feature, you'll notice that you must manually select the 'View All Donations' link to see your newly added donation. To make thinks a bit more user-friendly we can use the ***$location*** object to *automatically* redirect the user to the page we want.
 
-So if you modify your controller to look something like this
+So see if you can get that working?
 
-![](../images/lab2.step4.3.png)
-
-once you add a donation you should be redirected to the relevant page. Again, just be clear about how this is achieved before moving on to the next step.
+once you add a donation you should be redirected to the relevant page. Again, just be clear about how this is achieved before moving on to the next step (which also includes the solution!)
 
 
 
