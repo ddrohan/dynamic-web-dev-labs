@@ -19,15 +19,19 @@ Now, we need to somehow allow our 'donationsController' make requests so that we
 
 ![](../images/lab05.step3.1.png)
 
+and the following http call (within a ***findAll*** function)
 
 ```javascript
-
-app.controller('donationsController', function($scope, donations) {
-    // create a message to display in our view
-    $scope.message = 'Donations Page!';
-    $scope.donations = donations;
-  });
-
+function findAll() {
+        $http.get('/donations')
+            .success(function (data) {
+                $scope.donations = data;
+                console.log(data);
+            })
+            .error(function (data) {
+                console.log('Error: ' + data);
+            });
+    };
 ```
 Be clear about what is happening here and how we use the ***$scope*** object to allow access in our ***view*** (our donations.html).
 
