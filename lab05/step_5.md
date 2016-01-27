@@ -1,6 +1,10 @@
 # Step 5 - 'Delete' and 'UpVotes'
 
-Now that we can display a list of our donations and add an individual donation, the final features we need implement (at this stage anyway) is our **'Delete'** option where the user can *Remove* a single donation and also give a donation the *thumbs Up* or increase its **UpVotes**. Before we continue, have a look again at what our donations page looks like
+Now that we can display a list of our donations and add an individual donation, the final features we need implement (at this stage anyway) is our **'Delete'** option where the user can *Remove* a single donation and also give a donation the *thumbs Up* or increase its **UpVotes**. Before we continue, firstly, here's the solution to the previous step, and what your **donateController** should look like;
+
+![](../images/lab05.step3.5.png)
+
+And secondly, have a look again at what our donations page looks like
 
 ![](../images/donationwebapp1.jpg)
 
