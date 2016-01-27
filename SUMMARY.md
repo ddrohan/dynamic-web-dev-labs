@@ -39,7 +39,7 @@
        * [Step 3 - 'View All Donations'](lab05/step_3.md)
        * [Step 4 - 'Donate'](lab05/step_4.md)
        * [Step 5 - 'Delete' and 'UpVotes'](lab05/step_5.md)
-       * [Solution](lab05/solutiona.md)
+       * [Solution](lab05/solution.md)
 * [Deploying our App to Heroku](heroku/deploy_to_heroku.md)
    * [Step 01 - Requirements](heroku/step01.md)
    * [Step 02 - Using BitBucket & SourceTree](heroku/step02.md)
