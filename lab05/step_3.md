@@ -17,7 +17,7 @@ Have a quick look again at your **'donationsController'**, just to familiarise y
 
 Now, we need to somehow allow our 'donationsController' make requests so that we can display it on our donations page. We can achieve this through ***Dependency Injection*** so to begin with, add the **$http** dependency to your existing controller like so
 
-![](../images/lab5.step3.1.png)
+![](../images/lab05.step3.1.png)
 
 
 ```javascript
