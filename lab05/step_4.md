@@ -8,7 +8,7 @@ There's a bit more work involved to get this feature implemented, so the first t
 
 ---
 
-## The *factory* 'add' function
+## ***'Posting'*** a single Donation
 
 Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
 
