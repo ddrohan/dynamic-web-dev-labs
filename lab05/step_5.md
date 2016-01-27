@@ -8,25 +8,7 @@ And secondly, have a look again at what our donations page looks like
 
 ![](../images/donationwebapp1.jpg)
 
-What we need to do here is write 2 functions, one called **deleteDonation** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to our factory.
-
----
- 
-## The *factory* 'deleteDonation' function
-
-Here's the implemented function all ready to go, so just insert it correctly into our factory object in app.js. Make sure you understand how this works and more importantly the relevance of passing a ***donation*** reference to the function
-
-```javascript
-
-donations.deleteDonation = function(donation) {
-    var index = donations.indexOf(donation);
-    console.log( "Index is : " + index );
-    donations.splice(index, 1);  
-  };
-
-```
-
-The next step is to 'wire up' the click of the Delete Button on our view, with the deleteDonation function you just implemented - we'll achieve this, once again, through a ***callback function***.
+What we need to do here is write 2 functions, one called **deleteDonation** to *delete* a donation and another called **incrementUpvotes** to increase its *upvotes* property - both of which need to be added to our **donationsController**.
 
 ---
 
