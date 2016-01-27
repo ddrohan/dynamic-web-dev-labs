@@ -51,15 +51,9 @@ but try and have a go at the function for our controller.
 **Observe what happens when you click on the thumb icon.... and more importantly how does it work**
 
 ---
-As a wrap up, your completed **factory** should look like this
+As a wrap up, your completed **controller** should look like this
 
-![](../images/lab2.step5.2.png)
-
-and your **controller** should look like this
-
-![](../images/lab2.step5.3.png)
-
-
+![](../images/lab05.step3.7.png)
 
 ## Well Done!!
 
