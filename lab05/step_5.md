@@ -39,14 +39,14 @@ Once you've completed the 'delete' feature, save the file and test it out by add
 
 The last feature to implement is to give a particular donation the *thumbs Up*, by implementing the **incrementUpvotes** function in our **controller**.
 
-Here's the function for our factory
+Here's the stater code...
 
 ```javascript
-donations.incrementUpvotes = function(donation) {
-     donation.upvotes += 1;
-  };
+$scope.incrementUpvotes = function(id){
+          //Write your 'put' request here
+          }
 ```
-but try and have a go at the function for our controller.
+
 
 **Observe what happens when you click on the thumb icon.... and more importantly how does it work**
 
