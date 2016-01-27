@@ -1,6 +1,6 @@
 #Step 4 - 'Donate'
 
-So now that we can display a list of the donations initially set up, the second feature we'll implement is our **'Donate'** option where the user can choose an *amount* and a *payment type*. Before we start, have a look again at what we want our completed page to look like
+So now that we can display a list of the donations currently on the server, the second feature we'll implement is our **'Donate'** option where the user can choose an *amount* and a *payment type*. Before we start, have a look again at what we want our completed page to look like
 
 ![](../images/donationwebapp2.jpg)
 
@@ -10,18 +10,25 @@ There's a bit more work involved to get this feature implemented, so the first t
 
 ## ***'Posting'*** a single Donation
 
-Have a quick look again at our list we declared in our **factory**, just to familiarise yourself with the data you'll be displaying
+Open up your **donateController** and *inject* the necessary dependencies so that your controller looks like the following
 
-![](../images/lab2.step3.1.png)
+![](../images/lab05.step3.4.png)
 
-Now we need to implement a function which will 'add' a donation made, to the above list. Here's the majority of the code you need, but try and work out what you need to complete the function (fill in the ...'s) and where to put it.
+Now we need to implement a function which will 'add' (or post) a donation made, to the server. Here's the majority of the code you need, but try and work out what you need to complete the function (fill in the [...]'s) and where to put it.
 
 ```javascript
-
-donations.add = function(... , ...){
-    donations.push(...);
-  };
-
+$scope.addDonation = function(){
+        $scope.[...] = ...;
+        $http.post('/donations', ...)
+            .success(function(data) {
+                $scope.[...] = data;
+                $location.path('...');
+                console.log(data);
+            })
+            .error(function(data) {
+                console.log('Error: ' + data);
+            });
+    };
 ```
 
 The next step is to somehow 'wire up' the click of the Donate Button on our view, with the add function you just implemented - we'll achieve this through a ***callback function***.
