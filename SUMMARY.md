@@ -36,7 +36,7 @@
    * [Lab 5 - DonationWeb 4.0 (MEAN App)](lab05/lab_5.md)
        * [Step 1 - Objectives](lab05/step_1.md)
        * [Step 2 - Setup](lab05/step_2.md)
-       * [Step 3 - 'View All Donations'](lab05/step_3a.md)
+       * [Step 3 - 'View All Donations'](lab05/step_3.md)
        * [Step 4 - 'Donate'](lab05/step_4a.md)
        * [Step 5 - 'Delete' and 'UpVotes'](lab05/step_5a.md)
        * [Solution](lab05/solutiona.md)
